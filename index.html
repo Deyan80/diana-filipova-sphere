@@ -1,0 +1,1109 @@
+<!doctype html>
+<html lang="bg" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+<title>Диана Филипова — Сфера 360° · Империя от блясък и изкуството на короната</title>
+<meta name="description" content="Влез в кралска 360° сфера: Диана Филипова — дизайнер на FASHIONWAY, модел и Mrs. Austria на Mrs. Europe 2026, носителка на титлата First Lady 2026. Разгледай с докосване или мишка.">
+<link rel="canonical" href="https://deyan80.github.io/diana-filipova-sphere/">
+<meta name="theme-color" content="#0a0310">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Диана Филипова · Сфера 360°">
+<meta property="og:locale" content="bg_BG">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:title" content="Диана Филипова — Сфера 360° · Империя от блясък и изкуството на короната">
+<meta property="og:description" content="Влез в кралска 360° сфера: Mrs. Austria на Mrs. Europe 2026, дизайнер на FASHIONWAY и носителка на титлата First Lady 2026.">
+<meta property="og:url" content="https://deyan80.github.io/diana-filipova-sphere/">
+<meta property="og:image" content="https://deyan80.github.io/diana-filipova-sphere/diana-share.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Диана Филипова — Mrs. Europe 2026, Австрия">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Диана Филипова — Сфера 360°">
+<meta name="twitter:description" content="Империя от блясък и изкуството на короната. Влез в сферата.">
+<meta name="twitter:image" content="https://deyan80.github.io/diana-filipova-sphere/diana-share.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23140420' stroke='%23e9c27a' stroke-width='3'/%3E%3Cpath d='M14 40l-3-18 10 8 11-14 11 14 10-8-3 18z' fill='%23e9c27a'/%3E%3Crect x='14' y='42' width='36' height='5' rx='1.5' fill='%23f6e6c4'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--gold:#e9c27a;--pale:#f6e6c4;--ink:#0a0310;--txt:#f1ecf7;--glass:rgba(24,8,28,.6);--line:rgba(233,194,122,.5);--hi:rgba(233,194,122,.26);--sheet:#1a0720;--h1a:#fff6d8;--h1b:#f0b95a;--h1c:#c77a3a;--serif:"Cormorant Garamond","Playfair Display",Georgia,"DejaVu Serif",serif;--sans:Montserrat,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
+html[data-theme=light]{--gold:#a8741f;--pale:#5a1730;--ink:#fbf1e6;--txt:#3a1226;--glass:rgba(255,247,238,.8);--line:rgba(168,116,31,.55);--hi:rgba(168,116,31,.2);--sheet:#fff6ec;--h1a:#c8923a;--h1b:#9a5a1c;--h1c:#6a1c34}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;height:100%;background:var(--ink);color:var(--txt);font-family:var(--sans);overflow:hidden;overscroll-behavior:none;transition:background .6s}
+canvas{position:fixed;inset:0;width:100%;height:100%;display:block}
+#fx{pointer-events:none}
+#stage{position:fixed;inset:0;z-index:1;touch-action:none;cursor:grab;user-select:none;-webkit-user-select:none}
+#stage.drag{cursor:grabbing}
+.off{display:none!important}
+button{font:inherit;color:inherit;cursor:pointer}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+/* loader */
+#loader{position:fixed;inset:0;z-index:30;background:radial-gradient(circle at 50% 45%,#2a0a26,#07020c 70%);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:22px;transition:opacity .9s}
+#loader.gone{opacity:0;pointer-events:none}
+#loader p{margin:0;font:italic 500 22px var(--serif);letter-spacing:.08em;color:#f6e6c4}
+.ld{width:84px;height:84px;border-radius:50%;border:1.5px solid rgba(233,194,122,.35);position:relative;animation:spin 3.2s linear infinite}
+.ld:before,.ld:after{content:"";position:absolute;border-radius:50%;inset:-1.5px;border:1.5px solid transparent;border-top-color:#e9c27a}
+.ld:after{inset:12px;border-top-color:#ff9db0;animation:spin 1.6s linear infinite reverse}
+@keyframes spin{to{transform:rotate(360deg)}}
+/* intro */
+#intro{position:fixed;inset:0;z-index:6;display:flex;flex-direction:column;align-items:center;justify-content:space-between;text-align:center;padding:max(5vh,env(safe-area-inset-top)) 20px max(5vh,env(safe-area-inset-bottom));pointer-events:none;transition:opacity 1s}
+#intro.fade{opacity:0}
+#intro>*{pointer-events:auto}
+.eyebrow{font:500 12px var(--sans);letter-spacing:.5em;color:var(--gold);text-transform:uppercase;margin:0 0 10px;padding-left:.5em}
+#intro h1{margin:0;font:600 clamp(40px,7vw,84px)/1 var(--serif);letter-spacing:.05em;background:linear-gradient(180deg,var(--h1a),var(--h1b) 55%,var(--h1c));-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 22px rgba(240,185,90,.35))}
+#intro .sub{margin:12px 0 0;font:italic 500 clamp(18px,2.6vw,28px)/1.3 var(--serif);color:var(--pale);opacity:.95}
+.cta{display:inline-flex;align-items:center;gap:12px;min-height:54px;padding:0 34px;border-radius:40px;border:1px solid var(--line);background:linear-gradient(180deg,var(--hi),rgba(233,194,122,.05));backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);font:500 14px var(--sans);letter-spacing:.28em;text-transform:uppercase;color:var(--txt);box-shadow:0 0 34px rgba(233,194,122,.28),inset 0 0 18px rgba(255,230,170,.12);animation:pulse 2.8s ease-in-out infinite}
+.cta:hover{background:var(--hi)}
+@keyframes pulse{50%{box-shadow:0 0 54px rgba(233,194,122,.55),inset 0 0 22px rgba(255,230,170,.2)}}
+#intro .hint{margin:16px 0 0;font:300 12px var(--sans);letter-spacing:.14em;color:var(--txt);opacity:.66}
+@media (max-height:430px){#intro .sub,#intro .hint{display:none}}
+/* hud */
+#hud{position:fixed;inset:0;z-index:5;pointer-events:none;opacity:0;transition:opacity 1.2s}
+#hud.on{opacity:1}
+#hud>*{pointer-events:auto}
+.brand{position:absolute;left:max(16px,env(safe-area-inset-left));top:max(16px,env(safe-area-inset-top));font:italic 600 20px var(--serif);letter-spacing:.06em;color:var(--pale);text-shadow:0 0 14px rgba(0,0,0,.5);pointer-events:none!important}
+html[data-theme=light] .brand{text-shadow:0 0 14px rgba(255,255,255,.8)}
+.brand small{display:block;font:500 9px var(--sans);letter-spacing:.4em;color:var(--gold);margin-top:2px}
+#top{position:fixed;z-index:9;right:max(14px,env(safe-area-inset-right));top:max(12px,env(safe-area-inset-top));display:flex;gap:8px;align-items:center}
+.tools{position:absolute;right:max(14px,env(safe-area-inset-right));top:calc(max(12px,env(safe-area-inset-top)) + 56px);display:flex;gap:8px;align-items:center}
+.ib{width:46px;height:46px;border-radius:50%;border:1px solid var(--line);background:var(--glass);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);display:grid;place-items:center;transition:background .25s,transform .25s;flex:none}
+.ib:hover{background:var(--hi);transform:scale(1.06)}
+.ib svg{width:22px;height:22px;stroke:var(--pale);fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.ib.muted .wave{display:none}
+.ib:not(.muted) .slash{display:none}
+html[data-theme=dark] .ico-sun,html[data-theme=light] .ico-moon{display:none}
+.lang{display:flex;height:46px;border:1px solid var(--line);border-radius:23px;background:var(--glass);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);overflow:hidden;flex:none}
+.lang button{min-width:40px;padding:0 6px;border:0;background:transparent;font:600 12px var(--sans);letter-spacing:.1em;color:var(--pale);transition:background .25s}
+.lang button.act{background:var(--hi);color:var(--txt)}
+.lang button+button{border-left:1px solid var(--line)}
+.nav{position:absolute;left:0;right:0;bottom:max(14px,env(safe-area-inset-bottom));display:flex;flex-direction:column;align-items:center;gap:10px;padding:0 10px}
+.tip{font:300 12px var(--sans);letter-spacing:.12em;color:var(--txt);opacity:.78;text-shadow:0 0 10px var(--ink);transition:opacity 1.2s;text-align:center}
+.tip.gone{opacity:0}
+.chips{display:flex;gap:8px;max-width:100%;overflow-x:auto;scrollbar-width:none;padding:4px}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;min-height:40px;padding:0 18px;border-radius:30px;border:1px solid var(--line);background:var(--glass);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);font:500 11px var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--pale);transition:all .3s}
+.chip.act{background:var(--hi);border-color:var(--gold);color:var(--txt)}
+@media (max-width:720px){
+ .brand{font-size:17px}
+ #top{gap:6px}
+ .tools{top:calc(max(12px,env(safe-area-inset-top)) + 54px);gap:6px}
+ .ib{width:42px;height:42px}.lang{height:42px}.lang button{min-width:35px}
+ #intro{padding-top:max(84px,calc(env(safe-area-inset-top) + 72px))}
+ #intro h1{font-size:32px}#intro .sub{font-size:17px}
+ .brand{max-width:calc(100vw - 232px)}
+}
+/* lightbox */
+#lb{position:fixed;inset:0;z-index:20;background:rgba(8,2,12,.95);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:max(56px,env(safe-area-inset-top)) 16px max(48px,env(safe-area-inset-bottom));touch-action:pan-y}
+#lb .ib{background:rgba(24,8,28,.7);border-color:rgba(233,194,122,.5)}
+#lb .ib svg{stroke:#f6e6c4}
+#lb img{max-width:min(94vw,1000px);max-height:calc(100vh - 150px);max-height:calc(100dvh - 150px);object-fit:contain;border-radius:12px;box-shadow:0 0 60px rgba(233,194,122,.25),0 0 0 1px rgba(233,194,122,.4);transition:opacity .3s}
+#lb .cap{font:italic 500 clamp(18px,3vw,26px) var(--serif);color:#f6e6c4;text-align:center;min-height:1.4em}
+#lb .cnt{font:400 11px var(--sans);letter-spacing:.3em;color:#e9c27a}
+#lb .x,#lb .pv,#lb .nx{position:absolute}
+#lb .x{right:max(14px,env(safe-area-inset-right));top:max(12px,env(safe-area-inset-top))}
+#lb .pv,#lb .nx{top:50%;margin-top:-23px}
+#lb .pv{left:max(10px,env(safe-area-inset-left))}#lb .nx{right:max(10px,env(safe-area-inset-right))}
+/* reader */
+#rd{position:fixed;inset:0;z-index:22;background:rgba(10,2,14,.68);display:flex;align-items:center;justify-content:center;padding:max(14px,env(safe-area-inset-top)) 14px max(14px,env(safe-area-inset-bottom));backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+#rd .sheet{position:relative;width:min(700px,100%);max-height:100%;display:flex;flex-direction:column;background:var(--sheet);border:1px solid var(--line);border-radius:22px;padding:26px 26px 16px;box-shadow:0 0 70px rgba(233,194,122,.22);animation:up .35s ease}
+#rd .x{position:absolute;right:12px;top:12px;width:40px;height:40px}
+#rd .rk{font:500 11px var(--sans);letter-spacing:.4em;color:var(--gold);text-transform:uppercase;padding-right:50px}
+#rd h2{margin:8px 50px 14px 0;font:italic 600 clamp(26px,4.4vw,36px)/1.1 var(--serif);color:var(--pale)}
+#rd .rb{overflow:auto;padding-right:6px;-webkit-overflow-scrolling:touch;overscroll-behavior:contain}
+#rd .rb p{margin:0 0 14px;font:300 15.5px/1.72 var(--sans);color:var(--txt)}
+#rd .rb blockquote{margin:6px 0 16px;padding-left:16px;border-left:2px solid var(--gold);font:italic 500 clamp(20px,3vw,25px)/1.3 var(--serif);color:var(--pale)}
+#rd .rb p.src{font:300 11.5px/1.5 var(--sans);opacity:.6}
+#rd .rnav{display:flex;align-items:center;justify-content:space-between;margin-top:10px;padding-top:12px;border-top:1px solid var(--line)}
+#rd .rnav .ib{width:42px;height:42px}
+#rd .rnav span{font:400 11px var(--sans);letter-spacing:.3em;color:var(--gold)}
+/* share */
+#share{position:fixed;inset:0;z-index:21;background:rgba(10,2,14,.62);display:flex;align-items:flex-end;justify-content:center;backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px)}
+#share .sheet{width:min(520px,100%);background:var(--sheet);border:1px solid var(--line);border-bottom:0;border-radius:22px 22px 0 0;padding:22px 20px max(22px,env(safe-area-inset-bottom));animation:up .35s ease}
+@keyframes up{from{transform:translateY(40px);opacity:0}}
+#share h3{margin:0 0 4px;font:italic 600 26px var(--serif);color:var(--pale)}
+#share p{margin:0 0 16px;font:300 13px var(--sans);color:var(--txt);opacity:.75}
+.sgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.sgrid button{min-height:48px;border-radius:14px;border:1px solid var(--line);background:rgba(233,194,122,.08);font:500 13px var(--sans);letter-spacing:.08em;color:var(--txt)}
+.sgrid button:hover{background:var(--hi)}
+#share .close{margin-top:12px;width:100%;min-height:44px;border-radius:14px;border:0;background:transparent;color:var(--txt);opacity:.65;font:400 12px var(--sans);letter-spacing:.2em;text-transform:uppercase}
+#toast{position:fixed;left:50%;bottom:max(90px,env(safe-area-inset-bottom));transform:translate(-50%,20px);z-index:40;padding:12px 22px;border-radius:30px;background:var(--sheet);color:var(--txt);border:1px solid var(--gold);font:400 13px var(--sans);opacity:0;pointer-events:none;transition:all .4s}
+#toast.on{opacity:1;transform:translate(-50%,0)}
+#flash{position:fixed;inset:0;z-index:8;pointer-events:none;opacity:0;background:radial-gradient(circle at 50% 50%,#fff8e0,#f0c070 45%,rgba(240,192,112,0) 80%)}
+.ripple{position:fixed;z-index:3;width:12px;height:12px;margin:-6px 0 0 -6px;border-radius:50%;border:2px solid rgba(255,230,170,.9);pointer-events:none;animation:rip .8s ease-out forwards}
+html[data-theme=light] .ripple{border-color:rgba(168,116,31,.9)}
+@keyframes rip{to{transform:scale(9);opacity:0}}
+/* fallback without WebGL */
+body.nogl{overflow:auto}
+body.nogl canvas,body.nogl #stage,body.nogl #intro,body.nogl #hud{display:none}
+body.nogl .sr{position:static;width:auto;height:auto;overflow:visible;clip:auto;white-space:normal;max-width:760px;margin:0 auto;padding:40px 20px;font:300 17px/1.7 var(--sans)}
+body.nogl .sr h1,body.nogl .sr h2{font-family:var(--serif);font-style:italic;color:var(--pale)}
+body.nogl .sr img{width:100%;border-radius:12px;margin:12px 0}
+@media (prefers-reduced-motion:reduce){.cta{animation:none}}
+</style>
+</head>
+<body>
+<canvas id="sky"></canvas>
+<canvas id="gl"></canvas>
+<canvas id="fx"></canvas>
+<div id="stage" aria-hidden="true"></div>
+<div id="flash"></div>
+
+<div id="top">
+  <div class="lang" role="group" aria-label="Language">
+      <button type="button" data-l="bg" class="act">BG</button><button type="button" data-l="en">EN</button><button type="button" data-l="de">DE</button>
+    </div>
+  <button class="ib" id="bThm" type="button" aria-label="Theme"><svg viewBox="0 0 24 24"><g class="ico-sun"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.8v2.4M12 18.8v2.4M2.8 12h2.4M18.8 12h2.4M5.5 5.5l1.7 1.7M16.8 16.8l1.7 1.7M5.5 18.5l1.7-1.7M16.8 7.2l1.7-1.7"/></g><path class="ico-moon" d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z"/></svg></button>
+</div>
+
+<section id="intro" class="off" aria-label="Intro">
+  <div>
+    <p class="eyebrow" id="iEye">Сфера 360° · Виена</p>
+    <h1 id="iName">Диана Филипова</h1>
+    <p class="sub" id="iSub">Империя от блясък и изкуството на короната</p>
+  </div>
+  <div>
+    <button class="cta" id="enter" type="button">Влез в сферата</button>
+    <p class="hint" id="iHint">Влачи, за да завъртиш сферата · звукът се включва при влизане</p>
+  </div>
+</section>
+
+<div id="hud">
+  <div class="brand"><span id="hBrand">Диана Филипова</span><small>SPHERE 360°</small></div>
+  <div class="tools">
+    <button class="ib" id="bSnd" type="button" aria-label="Sound"><svg viewBox="0 0 24 24"><path d="M4 9v6h4l5 4V5L8 9H4z"/><path class="wave" d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12"/><path class="slash" d="M17 9l5 6M22 9l-5 6"/></svg></button>
+    <button class="ib" id="bGal" type="button" aria-label="Gallery"><svg viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="7" height="7" rx="1.5"/><rect x="13.5" y="3.5" width="7" height="7" rx="1.5"/><rect x="3.5" y="13.5" width="7" height="7" rx="1.5"/><rect x="13.5" y="13.5" width="7" height="7" rx="1.5"/></svg></button>
+    <button class="ib" id="bShr" type="button" aria-label="Share"><svg viewBox="0 0 24 24"><circle cx="6" cy="12" r="2.6"/><circle cx="18" cy="6" r="2.6"/><circle cx="18" cy="18" r="2.6"/><path d="M8.3 10.8l7.4-3.6M8.3 13.2l7.4 3.6"/></svg></button>
+  </div>
+  <div class="nav">
+    <div class="tip" id="tip"></div>
+    <div class="chips" id="chips">
+      <button class="chip" data-s="home" type="button"></button>
+      <button class="chip" data-s="about" type="button"></button>
+      <button class="chip" data-s="europe" type="button"></button>
+      <button class="chip" data-s="gallery" type="button"></button>
+      <button class="chip" data-s="contacts" type="button"></button>
+    </div>
+  </div>
+</div>
+
+<div id="lb" class="off" role="dialog" aria-modal="true" aria-label="Gallery">
+  <button class="ib x" id="lbX" type="button" aria-label="Close"><svg viewBox="0 0 24 24"><path d="M5 5l14 14M19 5L5 19"/></svg></button>
+  <button class="ib pv" id="lbP" type="button" aria-label="Previous"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg></button>
+  <button class="ib nx" id="lbN" type="button" aria-label="Next"><svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></button>
+  <img id="lbI" alt="">
+  <div class="cap" id="lbC"></div>
+  <div class="cnt" id="lbK"></div>
+</div>
+
+<div id="share" class="off">
+  <div class="sheet">
+    <h3 id="shT"></h3>
+    <p id="shS"></p>
+    <div class="sgrid" id="sgrid"></div>
+    <button class="close" id="shX" type="button"></button>
+  </div>
+</div>
+
+<div id="rd" class="off" role="dialog" aria-modal="true">
+  <div class="sheet">
+    <button class="ib x" id="rdX" type="button" aria-label="Close"><svg viewBox="0 0 24 24"><path d="M5 5l14 14M19 5L5 19"/></svg></button>
+    <div class="rk" id="rdK"></div>
+    <h2 id="rdH"></h2>
+    <div class="rb" id="rdB"></div>
+    <div class="rnav">
+      <button class="ib" id="rdP" type="button" aria-label="Previous"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg></button>
+      <span id="rdC"></span>
+      <button class="ib" id="rdN" type="button" aria-label="Next"><svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></button>
+    </div>
+  </div>
+</div>
+
+<div id="loader"><div class="ld"></div><p id="ldT">Зареждане на сферата…</p></div>
+<div id="toast"></div>
+
+<main class="sr" id="sr">
+  <h1>Диана Филипова — Сфера 360°</h1>
+  <h2>Империя от блясък и изкуството на короната</h2>
+  <p>Диана Филипова е дизайнер, модел и създателка на модната марка FASHIONWAY, с присъствие на подиумите на Виена, Дубай и Милано. През септември 2026 г. тя представя Австрия като Mrs. Austria на Mrs. Europe 2026 в Талин, Естония, и завоюва специалната титла Mrs. Europe First Lady 2026.</p>
+  <img src="diana-02.jpg" alt="Mrs. Europe 2026 · Австрия" loading="lazy">
+  <img src="diana-03.jpg" alt="Червен килим, червена рокля, кралско излъчване" loading="lazy">
+  <img src="diana-01.jpg" alt="Сестринство от корони" loading="lazy">
+</main>
+<noscript><style>#loader{display:none}</style></noscript>
+
+<script>
+(()=>{
+'use strict';
+/* ================= helpers ================= */
+const $=s=>document.querySelector(s);
+const TAU=Math.PI*2,D2R=Math.PI/180;
+const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
+const lerp=(a,b,t)=>a+(b-a)*t;
+const easeIO=t=>t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2;
+const smooth=(a,b,x)=>{const t=clamp((x-a)/(b-a),0,1);return t*t*(3-2*t)};
+const angDiff=(a,b)=>{let d=(b-a)%TAU;if(d>Math.PI)d-=TAU;if(d<-Math.PI)d+=TAU;return d};
+const mulberry=s=>()=>{s|=0;s=s+0x6D2B79F5|0;let t=Math.imul(s^s>>>15,1|s);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296};
+const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+const coarse=matchMedia('(pointer:coarse)').matches;
+const store={get(k){try{return localStorage.getItem(k)}catch(_){return null}},set(k,v){try{localStorage.setItem(k,v)}catch(_){}}};
+
+/* ================= translations ================= */
+const TX={
+bg:{
+ title:'Диана Филипова — Сфера 360° · Империя от блясък и изкуството на короната',
+ eyebrow:'Сфера 360° · Виена', n1:'ДИАНА', n2:'ФИЛИПОВА', name:'Диана Филипова',
+ sub:'Империя от блясък и изкуството на короната',
+ cta:'Влез в сферата', hint:'Влачи, за да завъртиш сферата · звукът се включва при влизане',
+ tip:'Влачи или докосвай, за да се огледаш · щипни за приближаване · докосни картите за повече', loading:'Зареждане на сферата…',
+ arrow:'← ВЛАЧИ · ОТКРИЙ →', heroTag:'MRS. EUROPE 2026 · АВСТРИЯ',
+ chips:{home:'Начало',about:'За нея',europe:'Mrs. Europe',gallery:'Галерия',contacts:'Fashionway'},
+ aria:{thm:'Светла / тъмна тема',snd:'Звук включен/изключен',gal:'Галерия',shr:'Сподели',x:'Затвори',p:'Предишна',n:'Следваща'},
+ shT:'Сподели сферата', shS:'Линкът се споделя със снимка и описание.', shMsg:'Диана Филипова — Сфера 360°: империя от блясък и изкуството на короната.', close:'Затвори',
+ copy:'Копирай линка', copied:'Линкът е копиран ✓', mail:'Имейл', more:'Още…',
+ banSelfie:'Визията не е украса. Тя е позиция.',
+ banAbout:'Стилът не просто се носи — той се преживява.',
+ galLab:'ГАЛЕРИЯ', galTitle:'Всяка корона разказва история', galText:'Корони, блясък и усмивки — мигове от живота на Mrs. Austria.',
+ banEurope:'Корона, носена със стил.',
+ quote:'„Каквото виждаш, това получаваш. Аз избрах да виждам само най-доброто.“', quoteBy:'ДИАНА ФИЛИПОВА',
+ banContacts:'Жена, която превръща всяка стъпка в изявление.',
+ aboutLab:'ЗА НЕЯ', aboutTitle:'Дизайнер, модел, жена с позиция',
+ aboutP1:'Диана Филипова е дизайнер, модел и създателка на модната марка FASHIONWAY, с присъствие на подиумите на Виена, Дубай и Милано. Израснала в семейство на моден дизайнер, тя превръща детската си любов към материята, блясъка и силуета в международно име.',
+ aboutP2:'След образование в Техническия университет в София и Виенския икономически университет и години във финансите, тя избира истинската си страст — да създава образи, които носят самочувствие и власт. Майка е на четири деца и собственик на събитието „Lady of the Year Austria“.',
+ euLab:'MRS. EUROPE 2026', euTitle:'Короната на Австрия в Талин',
+ euP1:'Талин, Естония, 15–20 септември 2026 г. Диана представи Австрия като Mrs. Austria на Mrs. Europe 2026 — сред 15 участнички от различни държави и региони. Гранд финалът беше на 19 септември.',
+ euP2:'Тя завоюва специалната титла Mrs. Europe First Lady 2026. Главната корона отиде при Светлана Петрова от Казахстан — първата победа за страната.',
+ fwLab:'FASHIONWAY', fwTitle:'Стил, превърнат в позиция',
+ fwItems:['Best Fashion Blogger of the Year · Red Silk Carpet Awards 2021','Best Evening Wear 2022 · International Fashion Week Dubai','Woman of the Universe II 2022 · First Lady 2022','Международен бренд на годината · Best Brand Awards 2023','3-то място · Promi-Skirennen 2024'],
+ btnShare:['Сподели','във всички мрежи ↗'], btnCopy:['Копирай линка','и го изпрати нататък ↗'],
+ sign1:'Империя от блясък', sign2:'и изкуството на короната.',
+ more:'ДОКОСНИ ЗА ПОВЕЧЕ',
+ rd:[
+ {k:'ПОРТРЕТ',h:'Диана Филипова — дизайнер, модел, жена с позиция',b:[
+  ['p','Родена в семейство на моден дизайнер, Диана Филипова расте с любов към материята, блясъка и силуета. Израснала в Самоков и София до 17-годишна възраст, тя учи успоредно в две гимназии — математическа и английска в Правец.'],
+  ['p','После следват Техническият университет в София — Индустриален мениджмънт и Международни отношения — и магистратура във Wiener Wirtschaftsuniversität, а след това години във финансите и контролинга в голяма виенска компания.'],
+  ['p','Но таблиците с цифри никога не са разказвали нейната история. Когато осъзнава, че работата на бюро не я прави щастлива, тя спира, поема отговорност и тръгва по своя път.'],
+  ['q','Каквото виждаш, това получаваш. Аз избрах да виждам само най-доброто.']]},
+ {k:'MRS. EUROPE 2026',h:'Талин: Първата дама на финала',b:[
+  ['p','Конкурсът Mrs. Europe 2026 се проведе в Талин, Естония, от 15 до 20 септември 2026 г. Гранд финалът беше на 19 септември в Privé Live Club. Петнайсет участнички от различни държави и региони — Казахстан, Нидерландия, Гибралтар, Турция, Източна Европа, Австрия, България, Германия, Босна, Сърбия, Португалия, Украйна, Балканите, Талин и Естония — се състезаваха за короната.'],
+  ['p','Диана Филипова, обявена официално като Diana Filipova (Mrs. Austria), завоюва специалната титла Mrs. Europe First Lady 2026.'],
+  ['p','Основните титли от финала: Mrs. Europe 2026 — Светлана Петрова (Казахстан), първата победа на страната в конкурса; Mrs. European Union 2026 — Биляна Йотовска (България). Специални отличия получиха още Elegance, Beauty, Charity и Best Model.'],
+  ['s','Източници: Postimees (limon.postimees.ee), Gloss.ee, Lada.kz']]},
+ {k:'FASHIONWAY',h:'От Милано до Дубай',b:[
+  ['p','През 2012 г. Диана започва работа в модна агенция във Виена като area manager и представлява италиански марки като Versace Jeans, Just Cavalli, Trussardi, Love Moschino, Fracomina, Furla, Elisabetta Franchi, Byblos и Silvian Heach. Тя е почетен гост на седмиците на модата в Милано и Виена.'],
+  ['p','През 2020 г., въоръжена с години международен опит, създава собствената си колекция — FASHIONWAY. Първото представяне е на финалите на Miss Earth Austria 2020: победителките поднасят своите корони в нейни рокли. Изисканата елегантност на материалите и вниманието към детайла стават запазената марка на бранда.'],
+  ['p','През 2021 г. е поканена на Dubai Fashion Week и става първият блогър, писал за събитието; същата година печели „Best Fashion Blogger of the Year“ на Red Silk Carpet Awards. През ноември 2022 г. FASHIONWAY печели Best Evening Wear 2022 на International Fashion Week Dubai, а през декември 2023 г. — „Международен бранд на годината“ на Best Brand Awards.']]},
+ {k:'КОРОНИ И СЕМЕЙСТВО',h:'Lady of the Year Austria и нови хоризонти',b:[
+  ['p','Диана е собственик и организатор на „Lady of the Year Austria“ — едно от най-елегантните събития на австрийската светска сцена. Три години с голям успех организира в Австрия и международния конкурс Grand Prize Universe.'],
+  ['p','Като National Director за Австрия тя представлява престижни платформи: MRS. Europe, Woman of the Universe, Super Model Universe, Man of the Universe, MR. Classic Universe, MRS. Classic Universe и Grandma Universe. През 2022 г. носи титлите „Woman of the Universe II 2022“ и „First Lady 2022“.'],
+  ['p','През февруари 2024 г. завоюва трето място в Promi-Skirennen 2024 сред едни от най-популярните спортисти в Австрия. FASHIONWAY продължава да развива вечерни и коктейлни рокли, а Диана подготвя спортно-елегантна ежедневна колекция.'],
+  ['p','Диана е майка на четири деца: „Четири деца означава повече изисквания, повече работа, повече енергия — а за мен и повече самодоказване. Те ме движат напред.“'],
+  ['q','Мъжът ми и аз сме заедно от 16-годишни. Децата и той са моята енергия и мотиватор.'],
+  ['p','Следващата глава тепърва се пише.']]}
+ ],
+ caps:['Сестринство от корони.','Mrs. Europe 2026 · Австрия.','Червен килим, червена рокля, кралско излъчване.','Вечеря между кралици.','Корони, блясък и усмивки.','Блясък във всеки детайл.','Дантела, цветя и кралска осанка.']
+},
+en:{
+ title:'Diana Filipova — 360° Sphere · An Empire of Splendour and the Art of the Crown',
+ eyebrow:'360° Sphere · Vienna', n1:'DIANA', n2:'FILIPOVA', name:'Diana Filipova',
+ sub:'An empire of splendour and the art of the crown',
+ cta:'Enter the sphere', hint:'Drag to rotate the sphere · sound starts when you enter',
+ tip:'Drag or tap to look around · pinch to zoom · tap the cards to read more', loading:'Loading the sphere…',
+ arrow:'← DRAG · DISCOVER →', heroTag:'MRS. EUROPE 2026 · AUSTRIA',
+ chips:{home:'Home',about:'About',europe:'Mrs. Europe',gallery:'Gallery',contacts:'Fashionway'},
+ aria:{thm:'Light / dark theme',snd:'Sound on/off',gal:'Gallery',shr:'Share',x:'Close',p:'Previous',n:'Next'},
+ shT:'Share the sphere', shS:'The link is shared with a photo and description.', shMsg:'Diana Filipova — 360° Sphere: an empire of splendour and the art of the crown.', close:'Close',
+ copy:'Copy link', copied:'Link copied ✓', mail:'Email', more:'More…',
+ banSelfie:'Vision is not decoration. It is a stance.',
+ banAbout:'Style is not merely worn — it is lived.',
+ galLab:'GALLERY', galTitle:'Every crown tells a story', galText:'Crowns, glamour and smiles — moments from the life of Mrs. Austria.',
+ banEurope:'A crown worn with style.',
+ quote:'“What you see is what you get. I chose to see only the best.”', quoteBy:'DIANA FILIPOVA',
+ banContacts:'A woman who turns every step into a statement.',
+ aboutLab:'ABOUT', aboutTitle:'Designer, model, a woman with a stance',
+ aboutP1:'Diana Filipova is a designer, model and creator of the fashion label FASHIONWAY, with a presence on the runways of Vienna, Dubai and Milan. Raised in a fashion-designer family, she turned her childhood love of fabric, sparkle and silhouette into an international name.',
+ aboutP2:'After studying at the Technical University of Sofia and the Vienna University of Economics and Business, and years in finance, she chose her true passion — creating looks that carry confidence and authority. She is a mother of four and the owner of the event “Lady of the Year Austria”.',
+ euLab:'MRS. EUROPE 2026', euTitle:'Austria’s crown in Tallinn',
+ euP1:'Tallinn, Estonia, 15–20 September 2026. Diana represented Austria as Mrs. Austria at Mrs. Europe 2026 — among 15 contestants from different countries and regions. The grand final took place on 19 September.',
+ euP2:'She won the special title Mrs. Europe First Lady 2026. The main crown went to Svetlana Petrova of Kazakhstan — the country’s first win.',
+ fwLab:'FASHIONWAY', fwTitle:'Style turned into a stance',
+ fwItems:['Best Fashion Blogger of the Year · Red Silk Carpet Awards 2021','Best Evening Wear 2022 · International Fashion Week Dubai','Woman of the Universe II 2022 · First Lady 2022','International Brand of the Year · Best Brand Awards 2023','3rd place · Promi-Skirennen 2024'],
+ btnShare:['Share','on every network ↗'], btnCopy:['Copy link','and pass it on ↗'],
+ sign1:'An empire of splendour', sign2:'and the art of the crown.',
+ more:'TAP TO READ MORE',
+ rd:[
+ {k:'PORTRAIT',h:'Diana Filipova — designer, model, a woman with a stance',b:[
+  ['p','Born into a family of fashion designers, Diana Filipova grew up with a love of fabric, sparkle and silhouette. Raised in Samokov and Sofia until the age of 17, she studied at two high schools at once — a mathematics school and an English-language school in Pravets.'],
+  ['p','Then came the Technical University of Sofia — Industrial Management and International Relations — and a master’s degree at the Vienna University of Economics and Business, followed by years in finance and controlling at a large Viennese company.'],
+  ['p','But spreadsheets never told her story. When she realised that a desk job did not make her happy, she stopped, took responsibility and set off on her own path.'],
+  ['q','What you see is what you get. I chose to see only the best.']]},
+ {k:'MRS. EUROPE 2026',h:'Tallinn: the First Lady of the final',b:[
+  ['p','The Mrs. Europe 2026 pageant took place in Tallinn, Estonia, from 15 to 20 September 2026. The grand final was held on 19 September at Privé Live Club. Fifteen contestants from different countries and regions — Kazakhstan, the Netherlands, Gibraltar, Turkey, Eastern Europe, Austria, Bulgaria, Germany, Bosnia, Serbia, Portugal, Ukraine, the Balkans, Tallinn and Estonia — competed for the crown.'],
+  ['p','Diana Filipova, officially listed as Diana Filipova (Mrs. Austria), won the special title Mrs. Europe First Lady 2026.'],
+  ['p','The main titles of the final: Mrs. Europe 2026 — Svetlana Petrova (Kazakhstan), the country’s first win in the pageant; Mrs. European Union 2026 — Biliana Yotovska (Bulgaria). Special awards also went to Elegance, Beauty, Charity and Best Model.'],
+  ['s','Sources: Postimees (limon.postimees.ee), Gloss.ee, Lada.kz']]},
+ {k:'FASHIONWAY',h:'From Milan to Dubai',b:[
+  ['p','In 2012 Diana joined a fashion agency in Vienna as an area manager, representing Italian labels such as Versace Jeans, Just Cavalli, Trussardi, Love Moschino, Fracomina, Furla, Elisabetta Franchi, Byblos and Silvian Heach. She is an honoured guest of the fashion weeks in Milan and Vienna.'],
+  ['p','In 2020, armed with years of international experience, she created her own collection — FASHIONWAY. It debuted at the Miss Earth Austria 2020 finals: the winners received their crowns in her gowns. The refined elegance of the fabrics and the attention to detail became the brand’s signature.'],
+  ['p','In 2021 she was invited to Dubai Fashion Week and became the first blogger to write about the event; the same year she won “Best Fashion Blogger of the Year” at the Red Silk Carpet Awards. In November 2022 FASHIONWAY won Best Evening Wear 2022 at International Fashion Week Dubai, and in December 2023 “International Brand of the Year” at the Best Brand Awards.']]},
+ {k:'CROWNS & FAMILY',h:'Lady of the Year Austria and new horizons',b:[
+  ['p','Diana is the owner and organiser of “Lady of the Year Austria” — one of the most elegant events on the Austrian social scene. For three years she also successfully organised the international pageant Grand Prize Universe in Austria.'],
+  ['p','As National Director for Austria she represents prestigious platforms: MRS. Europe, Woman of the Universe, Super Model Universe, Man of the Universe, MR. Classic Universe, MRS. Classic Universe and Grandma Universe. In 2022 she held the titles “Woman of the Universe II 2022” and “First Lady 2022”.'],
+  ['p','In February 2024 she took third place at Promi-Skirennen 2024, among some of Austria’s most popular athletes. FASHIONWAY keeps developing evening and cocktail dresses, while Diana prepares a sporty-elegant everyday collection.'],
+  ['p','Diana is a mother of four: “Four children mean more demands, more work, more energy — and for me, more proving myself. They drive me forward.”'],
+  ['q','My husband and I have been together since we were 16. He and the children are my energy and motivation.'],
+  ['p','The next chapter is still being written.']]}
+ ],
+ caps:['A sisterhood of crowns.','Mrs. Europe 2026 · Austria.','Red carpet, red gown, royal presence.','An evening among queens.','Crowns, sparkle and smiles.','Sparkle in every detail.','Lace, flowers and a royal bearing.']
+},
+de:{
+ title:'Diana Filipova — 360°-Sphäre · Ein Imperium des Glanzes und die Kunst der Krone',
+ eyebrow:'360°-Sphäre · Wien', n1:'DIANA', n2:'FILIPOVA', name:'Diana Filipova',
+ sub:'Ein Imperium des Glanzes und die Kunst der Krone',
+ cta:'Sphäre betreten', hint:'Ziehen, um die Sphäre zu drehen · Ton startet beim Eintritt',
+ tip:'Ziehen oder tippen, um dich umzusehen · zum Zoomen zwei Finger · Karten antippen für mehr', loading:'Sphäre wird geladen…',
+ arrow:'← ZIEHEN · ENTDECKEN →', heroTag:'MRS. EUROPE 2026 · ÖSTERREICH',
+ chips:{home:'Start',about:'Über sie',europe:'Mrs. Europe',gallery:'Galerie',contacts:'Fashionway'},
+ aria:{thm:'Helles / dunkles Design',snd:'Ton an/aus',gal:'Galerie',shr:'Teilen',x:'Schließen',p:'Zurück',n:'Weiter'},
+ shT:'Sphäre teilen', shS:'Der Link wird mit Foto und Beschreibung geteilt.', shMsg:'Diana Filipova — 360°-Sphäre: ein Imperium des Glanzes und die Kunst der Krone.', close:'Schließen',
+ copy:'Link kopieren', copied:'Link kopiert ✓', mail:'E-Mail', more:'Mehr…',
+ banSelfie:'Vision ist keine Dekoration. Sie ist Haltung.',
+ banAbout:'Stil wird nicht nur getragen — er wird gelebt.',
+ galLab:'GALERIE', galTitle:'Jede Krone erzählt eine Geschichte', galText:'Kronen, Glanz und Lächeln — Momente aus dem Leben von Mrs. Austria.',
+ banEurope:'Eine Krone, getragen mit Stil.',
+ quote:'„Was du siehst, bekommst du. Ich habe mich entschieden, nur das Beste zu sehen.“', quoteBy:'DIANA FILIPOVA',
+ banContacts:'Eine Frau, die jeden Schritt zum Statement macht.',
+ aboutLab:'ÜBER SIE', aboutTitle:'Designerin, Model, Frau mit Haltung',
+ aboutP1:'Diana Filipova ist Designerin, Model und Gründerin des Modelabels FASHIONWAY, präsent auf den Laufstegen von Wien, Dubai und Mailand. Aufgewachsen in einer Modedesigner-Familie, machte sie ihre Kindheitsliebe zu Stoff, Glanz und Silhouette zu einem internationalen Namen.',
+ aboutP2:'Nach dem Studium an der Technischen Universität Sofia und der Wirtschaftsuniversität Wien und Jahren im Finanzbereich folgte sie ihrer wahren Leidenschaft: Looks zu schaffen, die Selbstbewusstsein und Stärke ausstrahlen. Sie ist Mutter von vier Kindern und Inhaberin des Events „Lady of the Year Austria“.',
+ euLab:'MRS. EUROPE 2026', euTitle:'Österreichs Krone in Tallinn',
+ euP1:'Tallinn, Estland, 15.–20. September 2026. Diana vertrat Österreich als Mrs. Austria bei Mrs. Europe 2026 — unter 15 Teilnehmerinnen aus verschiedenen Ländern und Regionen. Das Grand Finale fand am 19. September statt.',
+ euP2:'Sie sicherte sich den Sondertitel Mrs. Europe First Lady 2026. Die Hauptkrone ging an Swetlana Petrowa aus Kasachstan — der erste Sieg des Landes.',
+ fwLab:'FASHIONWAY', fwTitle:'Stil als Haltung',
+ fwItems:['Best Fashion Blogger of the Year · Red Silk Carpet Awards 2021','Best Evening Wear 2022 · International Fashion Week Dubai','Woman of the Universe II 2022 · First Lady 2022','Internationale Marke des Jahres · Best Brand Awards 2023','3. Platz · Promi-Skirennen 2024'],
+ btnShare:['Teilen','in allen Netzwerken ↗'], btnCopy:['Link kopieren','und weitersenden ↗'],
+ sign1:'Ein Imperium des Glanzes', sign2:'und die Kunst der Krone.',
+ more:'TIPPEN ZUM WEITERLESEN',
+ rd:[
+ {k:'PORTRÄT',h:'Diana Filipova — Designerin, Model, Frau mit Haltung',b:[
+  ['p','In eine Familie von Modedesignern geboren, wuchs Diana Filipova mit der Liebe zu Stoff, Glanz und Silhouette auf. Bis zum 17. Lebensjahr in Samokow und Sofia aufgewachsen, besuchte sie parallel zwei Gymnasien — ein mathematisches und ein englischsprachiges in Prawez.'],
+  ['p','Es folgten die Technische Universität Sofia — Industriemanagement und Internationale Beziehungen — und ein Masterstudium an der Wirtschaftsuniversität Wien, danach Jahre im Finanzwesen und Controlling eines großen Wiener Unternehmens.'],
+  ['p','Doch Zahlentabellen haben ihre Geschichte nie erzählt. Als sie erkannte, dass die Arbeit am Schreibtisch sie nicht glücklich macht, hielt sie inne, übernahm Verantwortung und ging ihren eigenen Weg.'],
+  ['q','Was du siehst, bekommst du. Ich habe mich entschieden, nur das Beste zu sehen.']]},
+ {k:'MRS. EUROPE 2026',h:'Tallinn: die First Lady des Finales',b:[
+  ['p','Der Wettbewerb Mrs. Europe 2026 fand vom 15. bis 20. September 2026 in Tallinn, Estland, statt. Das Grand Finale wurde am 19. September im Privé Live Club ausgetragen. Fünfzehn Teilnehmerinnen aus verschiedenen Ländern und Regionen — Kasachstan, Niederlande, Gibraltar, Türkei, Osteuropa, Österreich, Bulgarien, Deutschland, Bosnien, Serbien, Portugal, Ukraine, Balkan, Tallinn und Estland — kämpften um die Krone.'],
+  ['p','Diana Filipova, offiziell geführt als Diana Filipova (Mrs. Austria), gewann den Sondertitel Mrs. Europe First Lady 2026.'],
+  ['p','Die Haupttitel des Finales: Mrs. Europe 2026 — Swetlana Petrowa (Kasachstan), der erste Sieg des Landes bei diesem Wettbewerb; Mrs. European Union 2026 — Biliana Yotovska (Bulgarien). Sonderauszeichnungen gab es außerdem für Elegance, Beauty, Charity und Best Model.'],
+  ['s','Quellen: Postimees (limon.postimees.ee), Gloss.ee, Lada.kz']]},
+ {k:'FASHIONWAY',h:'Von Mailand bis Dubai',b:[
+  ['p','Im Jahr 2012 begann Diana in einer Modeagentur in Wien als Area Managerin und vertrat italienische Marken wie Versace Jeans, Just Cavalli, Trussardi, Love Moschino, Fracomina, Furla, Elisabetta Franchi, Byblos und Silvian Heach. Sie ist Ehrengast der Modewochen in Mailand und Wien.'],
+  ['p','2020 schuf sie, ausgestattet mit jahrelanger internationaler Erfahrung, ihre eigene Kollektion — FASHIONWAY. Die erste Präsentation fand beim Finale der Miss Earth Austria 2020 statt: Die Siegerinnen empfingen ihre Kronen in ihren Kleidern. Die erlesene Eleganz der Stoffe und die Liebe zum Detail wurden zum Markenzeichen.'],
+  ['p','2021 wurde sie zur Dubai Fashion Week eingeladen und war die erste Bloggerin, die über das Event schrieb; im selben Jahr gewann sie „Best Fashion Blogger of the Year“ bei den Red Silk Carpet Awards. Im November 2022 gewann FASHIONWAY bei der International Fashion Week Dubai den Preis Best Evening Wear 2022, im Dezember 2023 bei den Best Brand Awards „Internationale Marke des Jahres“.']]},
+ {k:'KRONEN & FAMILIE',h:'Lady of the Year Austria und neue Horizonte',b:[
+  ['p','Diana ist Inhaberin und Organisatorin von „Lady of the Year Austria“ — einer der elegantesten Veranstaltungen der österreichischen Gesellschaft. Drei Jahre lang organisierte sie in Österreich zudem erfolgreich den internationalen Wettbewerb Grand Prize Universe.'],
+  ['p','Als National Director für Österreich vertritt sie renommierte Plattformen: MRS. Europe, Woman of the Universe, Super Model Universe, Man of the Universe, MR. Classic Universe, MRS. Classic Universe und Grandma Universe. 2022 trug sie die Titel „Woman of the Universe II 2022“ und „First Lady 2022“.'],
+  ['p','Im Februar 2024 belegte sie beim Promi-Skirennen 2024 den dritten Platz — unter einigen der beliebtesten Sportler Österreichs. FASHIONWAY entwickelt weiter elegante Abend- und Cocktailkleider, während Diana eine sportlich-elegante Alltagskollektion vorbereitet.'],
+  ['p','Diana ist Mutter von vier Kindern: „Vier Kinder bedeuten mehr Anforderungen, mehr Arbeit, mehr Energie — und für mich mehr Selbstbeweis. Sie treiben mich voran.“'],
+  ['q','Mein Mann und ich sind seit unserem 16. Lebensjahr zusammen. Er und die Kinder sind meine Energie und mein Antrieb.'],
+  ['p','Das nächste Kapitel wird gerade erst geschrieben.']]}
+ ],
+ caps:['Eine Schwesternschaft der Kronen.','Mrs. Europe 2026 · Österreich.','Roter Teppich, rote Robe, königliche Ausstrahlung.','Ein Abend unter Königinnen.','Kronen, Glanz und Lächeln.','Glanz in jedem Detail.','Spitze, Blumen und königliche Haltung.']
+}};
+const LANGS=['bg','en','de'];
+let lang='bg',theme='dark';
+
+/* ================= photos ================= */
+const PHOTOS=[
+ {f:'diana-01.jpg',fx:.5, fy:.47},
+ {f:'diana-02.jpg',fx:.44,fy:.36},
+ {f:'diana-03.jpg',fx:.5, fy:.5},
+ {f:'diana-04.jpg',fx:.5, fy:.5},
+ {f:'diana-05.jpg',fx:.5, fy:.5},
+ {f:'diana-06.jpg',fx:.5, fy:.42},
+ {f:'diana-07.jpg',fx:.5, fy:.4}
+];
+const SERIF='"Cormorant Garamond","Playfair Display",Georgia,"DejaVu Serif",serif';
+const SANS='Montserrat,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif';
+
+const THEMES={
+ dark:{sky:[[0,'#07020c'],[.4,'#13051b'],[.72,'#32091f'],[.92,'#611a2a'],[1,'#9c4c38']],haze:'255,160,110',
+  floor:['#2b0f1d','#12050f','#04010a'],gold:'#e9c27a',pale:'#f6e6c4',body:'rgba(246,238,250,.93)',ban:'#f6e6c4',ban2:'#fff0cf',
+  cardA:'rgba(36,10,30,.88)',cardB:'rgba(58,14,36,.88)',cardGlow:'rgba(233,140,120,.35)',cardIn:'rgba(233,194,122,.22)',
+  drape:'#6a1028',drapeA:.82,veins:'233,194,122',veinA:1,g:['#fff3d2','#f0bc62','#c5783a'],stars:3000,starCols:['255,226,190','255,244,224','255,255,255'],
+  bokeh:['255,150,120','255,200,130'],sea:'rgba(150,190,255,',glint:'255,226,190',light:0,crownGlow:'255,200,120'},
+ light:{sky:[[0,'#fff8f0'],[.4,'#fcebdc'],[.72,'#f4d0c0'],[.92,'#e8aea4'],[1,'#da9488']],haze:'255,190,150',
+  floor:['#f1dccd','#dbbeac','#b99884'],gold:'#a8741f',pale:'#5a1730',body:'rgba(62,22,42,.93)',ban:'#5a1730',ban2:'#4a1128',
+  cardA:'rgba(255,250,244,.93)',cardB:'rgba(250,234,224,.93)',cardGlow:'rgba(190,110,90,.3)',cardIn:'rgba(168,116,31,.3)',
+  drape:'#e29aa6',drapeA:.42,veins:'150,100,50',veinA:.8,g:['#e9c06a','#c8922e','#8f5a1e'],stars:1500,starCols:['190,130,50','225,165,80','255,255,255'],
+  bokeh:['255,170,150','255,215,160'],sea:'rgba(255,255,255,',glint:'255,255,255',light:1,crownGlow:'255,210,140'}
+};
+
+/* ================= layout of the panorama (logical 4096x2048) ================= */
+const BAND_Y=600,BAND_H=690,HY=1310;
+const ITEMS=[['hero',500],['selfie',400],['about',500],['crowns',400],['mosA',260],['europe',500],['curtain',400],['mosB',260],['contacts',460]];
+const GAP=(4096-ITEMS.reduce((s,i)=>s+i[1],0))/ITEMS.length;
+const POS={};{let x=GAP/2;ITEMS.forEach(([k,w])=>{POS[k]={x,w};x+=w+GAP})}
+const cxOf=k=>POS[k].x+POS[k].w/2;
+const GALX=(cxOf('crowns')+cxOf('mosA'))/2;
+const SECT={home:cxOf('hero'),about:cxOf('about'),europe:cxOf('europe'),gallery:GALX,contacts:cxOf('contacts')};
+const toYaw=x=>x/4096*TAU;
+const ZONES=[];
+
+/* ================= panorama builder ================= */
+function buildPanorama(W,imgs,L,T){
+  const S=W/4096;
+  const cv=document.createElement('canvas');cv.width=W;cv.height=W/2;
+  const ctx=cv.getContext('2d');ctx.scale(S,S);
+  const mk=document.createElement('canvas');mk.width=1024;mk.height=512;
+  const mx=mk.getContext('2d');mx.scale(.25,.25);mx.fillStyle='#000';mx.fillRect(0,0,4096,2048);
+  const rnd=mulberry(20261116);
+  ZONES.length=0;
+  const GOLD=T.gold,PALE=T.pale,BODY=T.body;
+  const mrect=(x,y,w,h,photo)=>{mx.fillStyle=photo?'#ffff00':'#ff0000';mx.fillRect(x-8,y-8,w+16,h+16)};
+  const rr=(x,y,w,h,r)=>{ctx.beginPath();ctx.moveTo(x+r,y);ctx.arcTo(x+w,y,x+w,y+h,r);ctx.arcTo(x+w,y+h,x,y+h,r);ctx.arcTo(x,y+h,x,y,r);ctx.arcTo(x,y,x+w,y,r);ctx.closePath()};
+  const goldGrad=(x0,y0,x1,y1)=>{const g=ctx.createLinearGradient(x0,y0,x1,y1);g.addColorStop(0,T.g[0]);g.addColorStop(.5,T.g[1]);g.addColorStop(1,T.g[2]);return g};
+  const wrap=(t,w)=>{const ws=t.split(' ');const Ls=[];let c='';for(const wd of ws){const tt=c?c+' '+wd:wd;if(ctx.measureText(tt).width>w&&c){Ls.push(c);c=wd}else c=tt}if(c)Ls.push(c);return Ls};
+  const spaced=(t,x,y,sp,align)=>{let tot=0;const ws=[...t].map(ch=>{const m=ctx.measureText(ch).width;tot+=m+sp;return m});tot-=sp;let cx=align==='center'?x-tot/2:align==='right'?x-tot:x;[...t].forEach((ch,i)=>{ctx.fillText(ch,cx,y);cx+=ws[i]+sp});return tot};
+  const flow=(x,y,w,h,blocks,o={})=>{
+    const al=o.align||'left';
+    const lay=sc=>{let H=0;const out=[];for(const b of blocks){const px=b.size*sc;ctx.font=b.font(px);const lines=b.sp?[b.t]:wrap(b.t,w);const lh=px*(b.lh||1.4);out.push({b,px,lines,lh});H+=lines.length*lh+(b.after||0)*sc}return{out,H}};
+    let sc=1,Ly;for(;sc>=.4;sc-=.03){Ly=lay(sc);if(Ly.H<=h)break}
+    let cy=o.valign==='bottom'?y+h-Ly.H:y;
+    ctx.textBaseline='top';
+    for(const o2 of Ly.out){const b=o2.b;ctx.font=b.font(o2.px);ctx.fillStyle=b.color;
+      o2.lines.forEach((ln,i)=>{const yy=cy+i*o2.lh;
+        if(b.sp){ctx.fillStyle=b.color;spaced(ln,al==='center'?x+w/2:x,yy,b.sp*sc,al==='center'?'center':'left')}
+        else{const lw=ctx.measureText(ln).width;ctx.fillText(ln,al==='center'?x+(w-lw)/2:x,yy)}});
+      cy+=o2.lines.length*o2.lh+(b.after||0)*sc}
+    return Ly.H;
+  };
+  const lab=t=>({t,font:p=>`500 ${p}px ${SANS}`,size:18,color:GOLD,sp:5,after:14,lh:1.2});
+  const ttl=(t,s=40)=>({t,font:p=>`italic 600 ${p}px ${SERIF}`,size:s,color:PALE,lh:1.12,after:16});
+  const par=(t,s=21,a=14)=>({t,font:p=>`400 ${p}px ${SANS}`,size:s,color:BODY,lh:1.5,after:a});
+  /* draws something at (x,y) pre-stretched so it looks undistorted on the sphere */
+  const atLat=(x,y,fn)=>{const lat=(1024-y)/2048*Math.PI,cl=Math.max(Math.cos(lat),.2);ctx.save();ctx.translate(x,y);ctx.scale(1/cl,1);fn();ctx.restore()};
+  const spark=(x,y,s,a)=>{ctx.fillStyle=`rgba(${T.starCols[0]},${a})`;ctx.beginPath();ctx.moveTo(x,y-s);ctx.quadraticCurveTo(x,y,x+s*.28,y);ctx.quadraticCurveTo(x,y,x,y+s);ctx.quadraticCurveTo(x,y,x-s*.28,y);ctx.quadraticCurveTo(x,y,x,y-s);ctx.fill()};
+
+  /* ---------- sky ---------- */
+  let g=ctx.createLinearGradient(0,0,0,HY);T.sky.forEach(([o,c])=>g.addColorStop(o,c));
+  ctx.fillStyle=g;ctx.fillRect(0,0,4096,HY+2);
+  // velvet drapes (pleats; period divides 4096 so the seam is invisible)
+  {
+    const dc=document.createElement('canvas');dc.width=4096;dc.height=HY;const d=dc.getContext('2d');
+    const P=64,N=4096/P;
+    for(let i=0;i<N;i++){
+      const x=i*P;const lg=d.createLinearGradient(x,0,x+P,0);
+      lg.addColorStop(0,'rgba(0,0,0,.45)');lg.addColorStop(.28,'rgba(0,0,0,.05)');lg.addColorStop(.5,T.light?'rgba(255,255,255,.28)':'rgba(255,120,130,.16)');lg.addColorStop(.74,'rgba(0,0,0,.08)');lg.addColorStop(1,'rgba(0,0,0,.45)');
+      d.fillStyle=T.drape;d.fillRect(x,0,P+1,HY);d.fillStyle=lg;d.fillRect(x,0,P+1,HY);
+    }
+    d.globalCompositeOperation='destination-in';
+    const mg=d.createLinearGradient(0,0,0,900);mg.addColorStop(0,`rgba(0,0,0,${T.drapeA})`);mg.addColorStop(.55,`rgba(0,0,0,${T.drapeA*.55})`);mg.addColorStop(1,'rgba(0,0,0,0)');d.fillStyle=mg;d.fillRect(0,0,4096,HY);
+    ctx.drawImage(dc,0,0);
+  }
+  // soft bokeh
+  for(let i=0;i<34;i++){const x=rnd()*4096,y=330+rnd()*900,r=14+rnd()*46;const hue=T.bokeh[rnd()<.5?0:1];
+    const rg=ctx.createRadialGradient(x,y,0,x,y,r);rg.addColorStop(0,`rgba(${hue},${T.light?.14:.1})`);rg.addColorStop(1,`rgba(${hue},0)`);ctx.fillStyle=rg;ctx.fillRect(x-r,y-r,r*2,r*2)}
+  // horizon glow
+  g=ctx.createLinearGradient(0,HY-260,0,HY);g.addColorStop(0,`rgba(${T.haze},0)`);g.addColorStop(1,`rgba(${T.haze},.34)`);ctx.fillStyle=g;ctx.fillRect(0,HY-260,4096,262);
+  // gold dust / stars
+  for(let i=0;i<T.stars;i++){
+    const sl=-.42+rnd()*1.42,lat=Math.asin(sl),x=rnd()*4096,y=2048*(.5-lat/Math.PI);if(y>HY-6)continue;
+    const cl=Math.max(Math.cos(lat),.16),big=rnd();let r=.55+rnd()*.8;
+    const col=T.starCols[Math.floor(rnd()*3)];
+    ctx.fillStyle=`rgba(${col},${.35+rnd()*.6})`;
+    if(big>.94){r=1.5+rnd()*1.2;const rg=ctx.createRadialGradient(x,y,0,x,y,r*5);rg.addColorStop(0,`rgba(${col},.5)`);rg.addColorStop(1,`rgba(${col},0)`);ctx.fillStyle=rg;ctx.fillRect(x-r*5/cl,y-r*5,r*10/cl,r*10);ctx.fillStyle=`rgba(${col},1)`}
+    ctx.beginPath();ctx.ellipse(x,y,r/cl,r,0,0,TAU);ctx.fill();
+    if(big>.99){ctx.fillRect(x-10/cl,y-.5,20/cl,1);ctx.fillRect(x-.5/cl,y-10,1/cl,20)}
+  }
+  // big sparkles
+  for(let i=0;i<70;i++){const y=250+rnd()*1000,x=rnd()*4096;atLat(x,y,()=>spark(0,0,10+rnd()*16,.55+rnd()*.4))}
+
+  /* ---------- crown drawing ---------- */
+  const crown=(cx,by,w)=>{
+    const h=w*.92;
+    // glow
+    let rg=ctx.createRadialGradient(cx,by-h*.45,w*.05,cx,by-h*.45,w*1.5);rg.addColorStop(0,`rgba(${T.crownGlow},${T.light?.5:.55})`);rg.addColorStop(.4,`rgba(${T.crownGlow},.14)`);rg.addColorStop(1,`rgba(${T.crownGlow},0)`);
+    ctx.fillStyle=rg;ctx.fillRect(cx-w*1.6,by-h*1.8,w*3.2,h*2.6);
+    const bt=by-w*.16;
+    const peaks=[[-.5,.46],[-.25,.62],[0,.9],[.25,.62],[.5,.46]];
+    const val=[[-.375,.3],[-.125,.36],[.125,.36],[.375,.3]];
+    ctx.save();
+    ctx.beginPath();ctx.moveTo(cx-.5*w,bt);
+    for(let i=0;i<peaks.length;i++){const p=peaks[i];ctx.lineTo(cx+p[0]*w,bt-p[1]*w*.9*(i===2?1:1));if(i<val.length){const v=val[i];ctx.quadraticCurveTo(cx+(p[0]+val[i][0])/2*w,bt-v[1]*w*.55,cx+peaks[i+1][0]*w*0+ (p[0]+.25)*w-0.0001,bt-peaks[i+1][1]*w*.9+0)}}
+    ctx.lineTo(cx+.5*w,bt);ctx.closePath();
+    const cg=ctx.createLinearGradient(cx-w/2,by-h,cx+w/2,by);cg.addColorStop(0,T.g[0]);cg.addColorStop(.45,T.g[1]);cg.addColorStop(1,T.g[2]);
+    ctx.fillStyle=cg;ctx.shadowColor=`rgba(${T.crownGlow},.8)`;ctx.shadowBlur=30;ctx.fill();ctx.shadowBlur=0;
+    ctx.lineWidth=2;ctx.strokeStyle=T.light?'rgba(110,60,20,.55)':'rgba(255,240,200,.6)';ctx.stroke();
+    // inner arches
+    ctx.strokeStyle=T.light?'rgba(110,60,20,.35)':'rgba(120,60,20,.5)';ctx.lineWidth=1.5;
+    for(let i=-1;i<=1;i++){ctx.beginPath();ctx.moveTo(cx+i*.2*w,bt);ctx.quadraticCurveTo(cx+i*.12*w,bt-.34*w,cx+i*.05*w,bt-.52*w);ctx.stroke()}
+    // band
+    rr(cx-.52*w,bt,1.04*w,.16*w,w*.03);ctx.fillStyle=cg;ctx.fill();ctx.lineWidth=2;ctx.strokeStyle=T.light?'rgba(110,60,20,.55)':'rgba(255,240,200,.65)';ctx.stroke();
+    ctx.restore();
+    // pearls on peaks
+    peaks.forEach((p,i)=>{const px=cx+p[0]*w,py=bt-p[1]*w*.9,r=w*(i===2?.055:.04);const pg=ctx.createRadialGradient(px-r*.3,py-r*.3,r*.1,px,py,r);pg.addColorStop(0,'#fff');pg.addColorStop(1,'#e9dcc8');ctx.fillStyle=pg;ctx.beginPath();ctx.arc(px,py,r,0,TAU);ctx.fill();ctx.lineWidth=1;ctx.strokeStyle='rgba(150,110,60,.6)';ctx.stroke()});
+    // jewels on band
+    [[-.36,'#2a5bd8'],[-.18,'#e8c24a'],[0,'#d8143c'],[.18,'#e8c24a'],[.36,'#2a5bd8']].forEach(([o,c],i)=>{const jx=cx+o*w,jy=bt+.08*w,r=w*(i===2?.05:.035);const jg=ctx.createRadialGradient(jx-r*.3,jy-r*.3,r*.1,jx,jy,r*1.2);jg.addColorStop(0,'#fff');jg.addColorStop(.35,c);jg.addColorStop(1,'rgba(0,0,0,.55)');ctx.fillStyle=jg;ctx.beginPath();ctx.moveTo(jx,jy-r*1.2);ctx.lineTo(jx+r,jy);ctx.lineTo(jx,jy+r*1.2);ctx.lineTo(jx-r,jy);ctx.closePath();ctx.fill()});
+  };
+
+  /* ---------- chandeliers ---------- */
+  const chandelier=(x,yTop,sc)=>{
+    atLat(x,yTop+160,()=>{
+      ctx.translate(0,-(yTop+160)+0);
+      const gy=yTop+120;
+      let rg=ctx.createRadialGradient(0,gy,4,0,gy,150*sc);rg.addColorStop(0,`rgba(${T.crownGlow},${T.light?.4:.42})`);rg.addColorStop(1,`rgba(${T.crownGlow},0)`);ctx.fillStyle=rg;ctx.fillRect(-170*sc,gy-170*sc,340*sc,340*sc);
+      ctx.strokeStyle=goldGrad(-40,yTop,40,yTop+200);ctx.lineWidth=2.4;ctx.beginPath();ctx.moveTo(0,0);ctx.lineTo(0,gy-40*sc);ctx.stroke();
+      for(let k=0;k<3;k++){
+        const w=(34+k*26)*sc,y=gy-26*sc+k*26*sc;
+        ctx.beginPath();ctx.moveTo(-w,y);ctx.quadraticCurveTo(0,y+22*sc,w,y);ctx.lineWidth=2.4;ctx.strokeStyle=goldGrad(-w,y,w,y+20);ctx.stroke();
+        const n=3+k*2;
+        for(let i=0;i<=n;i++){const t=i/n*2-1,px=t*w,py=y+22*sc*(1-t*t)*.5+ (0);
+          ctx.fillStyle=`rgba(${T.crownGlow},.9)`;ctx.beginPath();ctx.arc(px,py-6*sc,2.6*sc,0,TAU);ctx.fill();
+          ctx.strokeStyle=`rgba(${T.light?'200,150,70':'255,236,190'},.7)`;ctx.lineWidth=1.1;ctx.beginPath();ctx.moveTo(px,py);ctx.lineTo(px,py+(12+rnd()*10)*sc);ctx.stroke();
+          ctx.fillStyle=T.light?'rgba(255,255,255,.95)':'rgba(255,248,226,.95)';ctx.beginPath();ctx.arc(px,py+(14+(i%2)*9)*sc,2.7*sc,0,TAU);ctx.fill()}
+      }
+    });
+  };
+  [cxOf('selfie'),cxOf('about'),GALX,cxOf('europe'),(cxOf('curtain')+cxOf('mosB'))/2,cxOf('contacts')].forEach((x,i)=>chandelier(x,70+(i%2)*24,1));
+
+  /* ---------- hero crown ("moon") ---------- */
+  const mxp=cxOf('hero'),myp=470;
+  atLat(mxp,myp,()=>{ctx.translate(-mxp,-myp);crown(mxp,myp+95,210)});
+
+  /* ---------- floor ---------- */
+  g=ctx.createLinearGradient(0,HY,0,2048);g.addColorStop(0,T.floor[0]);g.addColorStop(.25,T.floor[1]);g.addColorStop(1,T.floor[2]);ctx.fillStyle=g;ctx.fillRect(0,HY,4096,2048-HY);
+  // marble veins
+  for(let i=0;i<130;i++){let x=rnd()*4096,y=HY+rnd()*60;ctx.beginPath();ctx.moveTo(x,y);for(let k=0;k<5;k++){x+=(rnd()-.5)*220;y+=40+rnd()*150;ctx.quadraticCurveTo(x+(rnd()-.5)*90,y-60,x,y)}ctx.lineWidth=.8+rnd()*1.6;ctx.strokeStyle=`rgba(${T.veins},${(.04+rnd()*.09)*T.veinA})`;ctx.stroke()}
+  g=ctx.createLinearGradient(0,HY-30,0,HY+60);g.addColorStop(0,'rgba(255,200,150,0)');g.addColorStop(.33,'rgba(255,214,160,.6)');g.addColorStop(1,'rgba(255,200,150,0)');ctx.fillStyle=g;ctx.fillRect(0,HY-30,4096,90);
+  ctx.fillStyle='rgba(255,236,200,.75)';ctx.fillRect(0,HY-1,4096,2);
+  // light path under the crown
+  for(let i=0;i<300;i++){const t=i/300,y=HY+8+t*690,w=10+t*190*rnd()+rnd()*30,x=mxp+(rnd()-.5)*(40+t*160);ctx.fillStyle=`rgba(${T.glint},${(1-t)*(T.light?.5:.34)*rnd()})`;ctx.fillRect(x-w/2,y,w,1.5+rnd()*2.2)}
+  for(let i=0;i<500;i++){const y=HY+10+rnd()*700,x=rnd()*4096;ctx.fillStyle=`${T.sea}${.03+rnd()*.07})`;ctx.fillRect(x,y,20+rnd()*90,1.5)}
+
+  /* ---------- panel helpers ---------- */
+  const cover=(img,x,y,w,h,fx,fy)=>{const iw=img.naturalWidth,ih=img.naturalHeight;let sw,sh;if(iw/ih>w/h){sh=ih;sw=sh*w/h}else{sw=iw;sh=sw*h/w}
+    const sx=clamp(fx*iw-sw/2,0,iw-sw),sy=clamp(fy*ih-sh/2,0,ih-sh);ctx.drawImage(img,sx,sy,sw,sh,x,y,w,h)};
+  const photo=(i,x,y,w,h,capPx)=>{
+    const P=PHOTOS[i],img=imgs[i];
+    ctx.save();rr(x,y,w,h,14);ctx.shadowColor=`rgba(${T.crownGlow},.6)`;ctx.shadowBlur=40;ctx.fillStyle='#14061c';ctx.fill();ctx.restore();
+    ctx.save();rr(x,y,w,h,14);ctx.clip();
+    if(img)cover(img,x,y,w,h,P.fx,P.fy);else{ctx.fillStyle='#3a1630';ctx.fillRect(x,y,w,h)}
+    const cg=ctx.createLinearGradient(0,y+h-110,0,y+h);cg.addColorStop(0,'rgba(14,2,16,0)');cg.addColorStop(1,'rgba(14,2,16,.85)');ctx.fillStyle=cg;ctx.fillRect(x,y+h-110,w,110);
+    ctx.restore();
+    ctx.font=`italic 500 ${capPx}px ${SERIF}`;ctx.fillStyle='#f6e6c4';ctx.textBaseline='top';
+    const Ls=wrap(L.caps[i],w-30);const lh=capPx*1.15;Ls.forEach((ln,k)=>ctx.fillText(ln,x+16,y+h-16-(Ls.length-k)*lh));
+    ctx.save();rr(x,y,w,h,14);ctx.lineWidth=3;ctx.strokeStyle=goldGrad(x,y,x+w,y+h);ctx.stroke();ctx.restore();
+    ctx.save();rr(x+7,y+7,w-14,h-14,9);ctx.lineWidth=1;ctx.strokeStyle='rgba(255,236,190,.35)';ctx.stroke();ctx.restore();
+    mrect(x,y,w,h,true);ZONES.push({x,y,w,h,type:'photo',i});
+  };
+  const card=(x,y,w,h)=>{
+    ctx.save();rr(x,y,w,h,18);ctx.shadowColor=T.cardGlow;ctx.shadowBlur=36;
+    g=ctx.createLinearGradient(x,y,x+w,y+h);g.addColorStop(0,T.cardA);g.addColorStop(1,T.cardB);ctx.fillStyle=g;ctx.fill();ctx.restore();
+    ctx.save();rr(x,y,w,h,18);ctx.lineWidth=2.4;ctx.strokeStyle=goldGrad(x,y,x+w,y+h);ctx.globalAlpha=.9;ctx.stroke();ctx.restore();
+    ctx.save();rr(x+8,y+8,w-16,h-16,12);ctx.lineWidth=1;ctx.strokeStyle=T.cardIn;ctx.stroke();ctx.restore();
+    mrect(x,y,w,h,false);
+  };
+  const diamond=(x,y,s)=>{ctx.save();ctx.translate(x,y);ctx.rotate(Math.PI/4);ctx.fillStyle=GOLD;ctx.fillRect(-s/2,-s/2,s,s);ctx.restore()};
+  const hint=(x,w,y)=>{ctx.save();ctx.textBaseline='alphabetic';ctx.font=`500 13px ${SANS}`;ctx.fillStyle=GOLD;const cx=x+w/2,tw=spaced(L.more,cx,y,4,'center');diamond(cx-tw/2-16,y-5,7);diamond(cx+tw/2+16,y-5,7);ctx.restore()};
+
+  /* ---------- upper tier banners ---------- */
+  const banner=(xc,w,blocks)=>{
+    const h=210,x=xc-w/2;flow(x,360,w,h-20,blocks,{align:'center',valign:'bottom'});
+    ctx.fillStyle=GOLD;ctx.globalAlpha=.7;ctx.fillRect(xc-45,BAND_Y-18,90,1.5);ctx.globalAlpha=1;diamond(xc,BAND_Y-17,7);mrect(x,356,w,h,false);
+  };
+  const cap=(t,s)=>({t,font:p=>`italic 500 ${p}px ${SERIF}`,size:s,color:T.ban,lh:1.18,after:0});
+  banner(cxOf('selfie'),360,[cap(L.banSelfie,32)]);
+  banner(cxOf('about'),480,[cap(L.banAbout,34)]);
+  banner(GALX,740,[lab(L.galLab),{t:L.galTitle,font:p=>`italic 600 ${p}px ${SERIF}`,size:54,color:T.ban,lh:1.1,after:12},{t:L.galText,font:p=>`400 ${p}px ${SANS}`,size:21,color:BODY,lh:1.5,after:0}]);
+  banner(cxOf('europe'),440,[cap(L.banEurope,36)]);
+  banner((cxOf('curtain')+cxOf('mosB'))/2,740,[{t:L.quote,font:p=>`italic 500 ${p}px ${SERIF}`,size:44,color:T.ban2,lh:1.12,after:14},{t:L.quoteBy,font:p=>`500 ${p}px ${SANS}`,size:16,color:GOLD,sp:6,after:0,lh:1.2}]);
+  banner(cxOf('contacts'),400,[cap(L.banContacts,32)]);
+
+  /* ---------- hero ---------- */
+  {
+    const x=POS.hero.x,w=POS.hero.w,cx=x+w/2;
+    ctx.textBaseline='alphabetic';
+    ctx.font=`500 15px ${SANS}`;ctx.fillStyle=GOLD;spaced(L.heroTag,cx,742,5,'center');
+    const fit=(t,maxW,start)=>{let s=start;for(;s>40;s-=2){ctx.font=`600 ${s}px ${SERIF}`;let tot=0;[...t].forEach(c=>tot+=ctx.measureText(c).width+s*.07);if(tot<=maxW)break}return s};
+    const s1=Math.min(fit(L.n1,w-20,150),fit(L.n2,w-20,150));
+    ctx.save();ctx.shadowColor=`rgba(${T.crownGlow},.6)`;ctx.shadowBlur=36;
+    ctx.font=`600 ${s1}px ${SERIF}`;ctx.fillStyle=goldGrad(x,820,x+w,940);spaced(L.n1,cx,850+s1*.55,s1*.07,'center');
+    spaced(L.n2,cx,850+s1*1.5,s1*.07,'center');ctx.restore();
+    const yl=850+s1*1.78;ctx.fillStyle=GOLD;ctx.globalAlpha=.75;ctx.fillRect(cx-70,yl,140,1.5);ctx.globalAlpha=1;diamond(cx,yl+.7,9);
+    ctx.textBaseline='top';
+    flow(x+20,yl+30,w-40,150,[{t:L.sub,font:p=>`italic 500 ${p}px ${SERIF}`,size:38,color:T.ban,lh:1.15,after:0}],{align:'center'});
+    ctx.textBaseline='alphabetic';ctx.font=`400 15px ${SANS}`;ctx.fillStyle=T.light?'rgba(90,23,48,.7)':'rgba(246,238,250,.68)';spaced(L.arrow,cx,1250,5,'center');
+    mrect(x,700,w,590,false);
+  }
+
+  /* ---------- photos in band ---------- */
+  const Y=BAND_Y,H=BAND_H;
+  photo(1,POS.selfie.x,Y,POS.selfie.w,H,28);
+  photo(0,POS.crowns.x,Y,POS.crowns.w,H,28);
+  photo(3,POS.mosA.x,Y,POS.mosA.w,(H-18)/2,21);
+  photo(4,POS.mosA.x,Y+(H-18)/2+18,POS.mosA.w,(H-18)/2,21);
+  photo(2,POS.curtain.x,Y,POS.curtain.w,H,28);
+  photo(5,POS.mosB.x,Y,POS.mosB.w,(H-18)/2,21);
+  photo(6,POS.mosB.x,Y+(H-18)/2+18,POS.mosB.w,(H-18)/2,21);
+
+  /* ---------- text cards ---------- */
+  {
+    const x=POS.about.x,w=POS.about.w;card(x,Y,w,H);
+    flow(x+36,Y+34,w-72,H-68-34,[lab(L.aboutLab),ttl(L.aboutTitle,40),par(L.aboutP1,21,14),par(L.aboutP2,21,0)]);
+    hint(x,w,Y+H-34);ZONES.push({x,y:Y,w,h:H,type:'card',r:0});
+  }
+  {
+    const x=POS.europe.x,w=POS.europe.w;card(x,Y,w,H);
+    flow(x+36,Y+34,w-72,H-68-34,[lab(L.euLab),ttl(L.euTitle,42),par(L.euP1,22,16),par(L.euP2,22,0)]);
+    hint(x,w,Y+H-34);ZONES.push({x,y:Y,w,h:H,type:'card',r:1});
+  }
+  {
+    const x=POS.contacts.x,w=POS.contacts.w;card(x,Y,w,H);
+    const bh=70,bgap=14,bw=w-68,by2=Y+H-34-bh,by1=by2-bgap-bh;
+    flow(x+34,Y+30,w-68,by1-Y-30-14-30,[lab(L.fwLab),ttl(L.fwTitle,36),...L.fwItems.map((t,i)=>par('• '+t,19,i<L.fwItems.length-1?8:0))]);
+    const btn=(by,t,act)=>{const bx=x+34;ctx.save();rr(bx,by,bw,bh,35);g=ctx.createLinearGradient(bx,by,bx+bw,by+bh);g.addColorStop(0,T.light?'rgba(168,116,31,.28)':'rgba(233,194,122,.28)');g.addColorStop(1,T.light?'rgba(168,116,31,.08)':'rgba(233,194,122,.08)');ctx.fillStyle=g;ctx.fill();ctx.lineWidth=2;ctx.strokeStyle=GOLD;ctx.stroke();ctx.restore();
+      ctx.textBaseline='alphabetic';ctx.fillStyle=T.light?'#3a1226':'#fff3d6';ctx.font=`500 23px ${SANS}`;const w1=ctx.measureText(t[0]).width;ctx.fillText(t[0],bx+(bw-w1)/2,by+31);ctx.font=`italic 500 19px ${SERIF}`;ctx.fillStyle=PALE;const w2=ctx.measureText(t[1]).width;ctx.fillText(t[1],bx+(bw-w2)/2,by+56);
+      ZONES.push({x:bx,y:by,w:bw,h:bh,type:'act',a:act})};
+    btn(by1,L.btnShare,'share');btn(by2,L.btnCopy,'copy');
+    hint(x,w,by1-18);ZONES.push({x,y:Y,w,h:H,type:'card',r:2});
+  }
+
+  /* ---------- reflection on the marble floor ---------- */
+  {
+    const tmp=document.createElement('canvas');tmp.width=Math.round(W/2);tmp.height=350;
+    tmp.getContext('2d').drawImage(cv,0,600*S,W,700*S,0,0,tmp.width,350);
+    for(let r=0;r<350;r++){const dy=2008-2*r;const a=(T.light?.36:.46)*Math.pow(Math.max(0,1-(dy-HY)/740),1.5);if(a<.01)continue;
+      ctx.globalAlpha=a;const dx=Math.sin(dy*.05+r*.01)*(1+(dy-HY)*.006);ctx.drawImage(tmp,0,r,tmp.width,1,dx,dy,4096,2.3)}
+    ctx.globalAlpha=1;
+    for(let i=0;i<260;i++){const y=HY+14+Math.pow(rnd(),1.4)*680,x=rnd()*4096;ctx.fillStyle=`rgba(${T.glint},${.05+rnd()*.14})`;ctx.fillRect(x,y,8+rnd()*40,1.6)}
+  }
+  /* ---------- closing sign on the floor (wraps the seam) ---------- */
+  for(const sx of [0,4096]){
+    ctx.save();ctx.textBaseline='alphabetic';ctx.shadowColor=`rgba(${T.crownGlow},.55)`;ctx.shadowBlur=34;
+    ctx.font=`italic 600 100px ${SERIF}`;ctx.fillStyle=goldGrad(sx-450,1560,sx+450,1680);const t=L.sign1;const tw=ctx.measureText(t).width;ctx.fillText(t,sx-tw/2,1610);ctx.restore();
+    ctx.font=`italic 500 46px ${SERIF}`;ctx.fillStyle=PALE;const t2=L.sign2;ctx.fillText(t2,sx-ctx.measureText(t2).width/2,1682);
+    ctx.font=`400 17px ${SANS}`;ctx.fillStyle=T.light?'rgba(90,23,48,.7)':'rgba(246,238,250,.62)';spaced('© 2026 '+L.n1+' '+L.n2,sx,1750,5,'center');
+  }
+  mrect(3596,1500,1000,280,false);mrect(-500,1500,1000,280,false);
+  return {cv,mk};
+}
+
+/* ================= GL ================= */
+const skyC=$('#sky'),glC=$('#gl'),fxC=$('#fx'),stage=$('#stage');
+let gl=null,prIn,prSh,uI={},uS={},idxCount=0,tex,maskTex;
+const LON=96,LAT=48;
+const VS=`attribute vec3 aPos;attribute vec2 aUv;uniform mat3 uV;uniform float uD;uniform vec2 uProj;uniform float uSc;varying vec2 vUv;varying vec3 vN;
+void main(){vec3 pc=uV*(aPos*uSc)-vec3(0.,0.,uD);float n=.02,f=40.;gl_Position=vec4(pc.x*uProj.x,pc.y*uProj.y,-(f+n)/(f-n)*pc.z-2.*f*n/(f-n),-pc.z);vUv=aUv;vN=aPos;}`;
+const FSI=`precision mediump float;uniform sampler2D uTex,uMask;uniform float uT,uStar,uLight;varying vec2 vUv;
+float h21(vec2 p){p=fract(p*vec2(123.34,456.21));p+=dot(p,p+45.32);return fract(p.x*p.y);}
+void main(){
+ vec3 c=texture2D(uTex,vUv).rgb;vec4 m=texture2D(uMask,vUv);
+ float sea=step(.6396,vUv.y);
+ vec2 g=vUv*vec2(230.,115.);vec2 id=floor(g);vec2 f=fract(g)-.5;float hh=h21(id);
+ float th=1.-(.05+.03*sea)*sin(3.14159*vUv.y);
+ float on=step(th,hh);
+ float tw=.5+.5*sin(uT*(1.1+hh*2.4)+hh*70.);
+ vec2 off=(vec2(h21(id+7.1),h21(id+3.3))-.5)*.5;
+ float st=on*smoothstep(.24,.0,length(f-off))*tw*tw;
+ vec3 sc=mix(vec3(1.,.93,.8),vec3(1.,.76,.45),h21(id+1.7));
+ c+=sc*st*(1.-m.r)*(1.-.5*sea)*1.25*uStar;
+ float s=fract(vUv.x*2.+vUv.y*.5-uT*.03);float band=exp(-pow((s-.5)*8.,2.));
+ c+=m.g*band*vec3(.95,.72,.45)*(.2-.1*uLight);
+ gl_FragColor=vec4(c,1.);}`;
+const FSS=`precision mediump float;uniform float uT,uOut,uLight;uniform vec3 uCam;varying vec2 vUv;varying vec3 vN;
+void main(){vec3 n=normalize(vN);vec3 v=normalize(uCam-vN);float ndv=abs(dot(n,v));float rim=pow(1.-ndv,2.4);
+ vec2 q=vUv*vec2(24.,12.);q=min(fract(q),1.-fract(q));float gl=1.-smoothstep(0.,.04,min(q.x,q.y));
+ float pulse=.5+.5*sin(vUv.x*48.-uT*1.6+vUv.y*10.);
+ vec3 col=mix(vec3(1.,.78,.5),vec3(1.,.55,.7),vUv.y);
+ col=mix(col,mix(vec3(.62,.38,.12),vec3(.6,.15,.35),vUv.y),uLight);
+ vec3 o=(rim*1.05+gl*.2*(.35+rim)*(.5+pulse))*col*uOut;
+ gl_FragColor=vec4(o,min(1.,max(o.r,max(o.g,o.b))));}`;
+function sh(t,src){const s=gl.createShader(t);gl.shaderSource(s,src);gl.compileShader(s);if(!gl.getShaderParameter(s,gl.COMPILE_STATUS))throw new Error(gl.getShaderInfoLog(s));return s}
+function prog(fs){const p=gl.createProgram();gl.attachShader(p,sh(gl.VERTEX_SHADER,VS));gl.attachShader(p,sh(gl.FRAGMENT_SHADER,fs));gl.bindAttribLocation(p,0,'aPos');gl.bindAttribLocation(p,1,'aUv');gl.linkProgram(p);if(!gl.getProgramParameter(p,gl.LINK_STATUS))throw new Error(gl.getProgramInfoLog(p));return p}
+function locs(p,names){const o={};names.forEach(n=>o[n]=gl.getUniformLocation(p,n));return o}
+function uploadPano(pano){
+  gl.activeTexture(gl.TEXTURE0);gl.bindTexture(gl.TEXTURE_2D,tex);
+  gl.texImage2D(gl.TEXTURE_2D,0,gl.RGBA,gl.RGBA,gl.UNSIGNED_BYTE,pano.cv);gl.generateMipmap(gl.TEXTURE_2D);
+  gl.activeTexture(gl.TEXTURE1);gl.bindTexture(gl.TEXTURE_2D,maskTex);
+  gl.texImage2D(gl.TEXTURE_2D,0,gl.RGBA,gl.RGBA,gl.UNSIGNED_BYTE,pano.mk);
+}
+function initGL(pano){
+  gl=glC.getContext('webgl',{alpha:true,antialias:false,premultipliedAlpha:true,powerPreference:'high-performance'})||glC.getContext('experimental-webgl');
+  if(!gl)return false;
+  prIn=prog(FSI);prSh=prog(FSS);
+  uI=locs(prIn,['uV','uD','uProj','uSc','uTex','uMask','uT','uStar','uLight']);uS=locs(prSh,['uV','uD','uProj','uSc','uT','uOut','uCam','uLight']);
+  const verts=[];for(let j=0;j<=LAT;j++){const ph=j/LAT*Math.PI;for(let i=0;i<=LON;i++){const la=i/LON*TAU;verts.push(Math.sin(ph)*Math.sin(la),Math.cos(ph),-Math.sin(ph)*Math.cos(la),i/LON,j/LAT)}}
+  const idx=[];for(let j=0;j<LAT;j++)for(let i=0;i<LON;i++){const a=j*(LON+1)+i,b=a+1,c=a+LON+1,d=c+1;idx.push(a,b,c,b,d,c)}
+  idxCount=idx.length;
+  const vb=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,vb);gl.bufferData(gl.ARRAY_BUFFER,new Float32Array(verts),gl.STATIC_DRAW);
+  const ib=gl.createBuffer();gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER,ib);gl.bufferData(gl.ELEMENT_ARRAY_BUFFER,new Uint16Array(idx),gl.STATIC_DRAW);
+  gl.enableVertexAttribArray(0);gl.vertexAttribPointer(0,3,gl.FLOAT,false,20,0);
+  gl.enableVertexAttribArray(1);gl.vertexAttribPointer(1,2,gl.FLOAT,false,20,12);
+  tex=gl.createTexture();gl.activeTexture(gl.TEXTURE0);gl.bindTexture(gl.TEXTURE_2D,tex);
+  gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MIN_FILTER,gl.LINEAR_MIPMAP_LINEAR);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MAG_FILTER,gl.LINEAR);
+  gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_S,gl.REPEAT);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_T,gl.CLAMP_TO_EDGE);
+  const ext=gl.getExtension('EXT_texture_filter_anisotropic');if(ext)gl.texParameterf(gl.TEXTURE_2D,ext.TEXTURE_MAX_ANISOTROPY_EXT,Math.min(4,gl.getParameter(ext.MAX_TEXTURE_MAX_ANISOTROPY_EXT)));
+  maskTex=gl.createTexture();gl.activeTexture(gl.TEXTURE1);gl.bindTexture(gl.TEXTURE_2D,maskTex);
+  gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MIN_FILTER,gl.LINEAR);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MAG_FILTER,gl.LINEAR);
+  gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_S,gl.REPEAT);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_T,gl.CLAMP_TO_EDGE);
+  uploadPano(pano);
+  gl.clearColor(0,0,0,0);gl.disable(gl.DEPTH_TEST);
+  return true;
+}
+
+/* ================= state ================= */
+const HERO_YAW=toYaw(SECT.home),HERO_PITCH=.1;
+const St={mode:'load',yaw:HERO_YAW,pitch:.12,fov:50*D2R,fovT:62*D2R,D:6,D0:6,vY:0,vP:0,t:0,dive:0,diveYaw0:0,idle:0,go:null,W:1,H:1,dpr:1,asp:1,lastPanel:-1,cool:0};
+const introFov=50*D2R;
+const baseFov=()=>(St.asp<1?80:70)*D2R;
+const skyCtx=skyC.getContext('2d'),fxCtx=fxC.getContext('2d');
+function resize(){
+  const W=innerWidth,H=innerHeight;St.W=W;St.H=H;St.asp=W/H;
+  St.dpr=Math.min(devicePixelRatio||1,coarse?1.75:2);
+  glC.width=Math.round(W*St.dpr);glC.height=Math.round(H*St.dpr);
+  const fd=Math.min(devicePixelRatio||1,1.5);
+  skyC.width=fxC.width=Math.round(W*fd);skyC.height=fxC.height=Math.round(H*fd);St.fd=fd;
+  const half=introFov/2,hh=Math.min(half,Math.atan(Math.tan(half)*St.asp));
+  St.D0=1/Math.sin(hh*(St.asp<1?.74:.62));
+  if(St.mode==='inside')St.fovT=clamp(St.fovT,34*D2R,100*D2R);
+  if(St.mode==='load'||St.mode==='intro')St.D=St.D0;
+}
+function viewMat(yaw,pitch){
+  const sy=Math.sin(yaw),cy=Math.cos(yaw),sp=Math.sin(pitch),cp=Math.cos(pitch);
+  const c0=[cy,0,sy],c1=[-sp*sy,cp,sp*cy],c2=[-cp*sy,-sp,cp*cy];
+  return {c0,c1,c2,m:new Float32Array([c0[0],c1[0],c2[0],c0[1],c1[1],c2[1],c0[2],c1[2],c2[2]])};
+}
+function draw(){
+  if(!gl)return;
+  const light=theme==='light'?1:0;
+  gl.viewport(0,0,glC.width,glC.height);gl.clear(gl.COLOR_BUFFER_BIT);
+  const V=viewMat(St.yaw,St.pitch),th=Math.tan(St.fov/2);
+  gl.enable(gl.CULL_FACE);gl.disable(gl.BLEND);gl.cullFace(gl.FRONT);
+  gl.useProgram(prIn);gl.uniformMatrix3fv(uI.uV,false,V.m);gl.uniform1f(uI.uD,St.D);gl.uniform2f(uI.uProj,1/(St.asp*th),1/th);gl.uniform1f(uI.uSc,1);gl.uniform1f(uI.uT,St.t);
+  gl.uniform1f(uI.uStar,light?0:1);gl.uniform1f(uI.uLight,light);
+  gl.uniform1i(uI.uTex,0);gl.uniform1i(uI.uMask,1);
+  gl.drawElements(gl.TRIANGLES,idxCount,gl.UNSIGNED_SHORT,0);
+  if(St.D>.9){
+    gl.enable(gl.BLEND);gl.blendFunc(gl.ONE,light?gl.ONE_MINUS_SRC_ALPHA:gl.ONE);gl.cullFace(gl.BACK);
+    gl.useProgram(prSh);gl.uniformMatrix3fv(uS.uV,false,V.m);gl.uniform1f(uS.uD,St.D);gl.uniform2f(uS.uProj,1/(St.asp*th),1/th);gl.uniform1f(uS.uSc,1.004);gl.uniform1f(uS.uT,St.t);
+    gl.uniform1f(uS.uLight,light);
+    gl.uniform1f(uS.uOut,smooth(.95,1.7,St.D));gl.uniform3f(uS.uCam,V.c2[0]*St.D,V.c2[1]*St.D,V.c2[2]*St.D);
+    gl.drawElements(gl.TRIANGLES,idxCount,gl.UNSIGNED_SHORT,0);
+  }
+}
+
+/* ================= 2D sky + orbit rings (intro only) ================= */
+const rs=mulberry(77);
+const SKYSTARS=Array.from({length:coarse?90:150},()=>({x:rs(),y:rs(),r:rs()*1.1+.35,p:rs()*TAU,s:rs()*1.8+.6,w:rs()<.3}));
+const RINGS=[{k:1.5,tilt:-.34,ry:.2,sp:.32,n:coarse?46:64},{k:1.88,tilt:.24,ry:.28,sp:-.22,n:coarse?60:84},{k:2.3,tilt:-.1,ry:.12,sp:.14,n:coarse?30:44}];
+let shoot=null,nextShoot=2.5;
+function drawSky(dt){
+  const W=skyC.width,H=skyC.height,f=St.fd,c=skyCtx,light=theme==='light';
+  c.globalCompositeOperation='source-over';
+  let g=c.createLinearGradient(0,0,0,H);
+  if(light){g.addColorStop(0,'#fff8f0');g.addColorStop(.55,'#fbe3d3');g.addColorStop(1,'#f0bfb4')}else{g.addColorStop(0,'#07020c');g.addColorStop(.55,'#1a0620');g.addColorStop(1,'#3a0d24')}
+  c.fillStyle=g;c.fillRect(0,0,W,H);
+  let rg=c.createRadialGradient(W*.8,H*.18,0,W*.8,H*.18,Math.max(W,H)*.5);rg.addColorStop(0,light?'rgba(255,190,150,.4)':'rgba(190,60,110,.2)');rg.addColorStop(1,'rgba(0,0,0,0)');c.fillStyle=rg;c.fillRect(0,0,W,H);
+  rg=c.createRadialGradient(W*.15,H*.85,0,W*.15,H*.85,Math.max(W,H)*.45);rg.addColorStop(0,light?'rgba(255,215,160,.4)':'rgba(233,160,70,.14)');rg.addColorStop(1,'rgba(0,0,0,0)');c.fillStyle=rg;c.fillRect(0,0,W,H);
+  for(const s of SKYSTARS){const a=.35+.65*(.5+.5*Math.sin(St.t*s.s+s.p));c.fillStyle=light?(s.w?`rgba(168,116,31,${a*.7})`:`rgba(200,140,70,${a*.6})`):(s.w?`rgba(255,226,190,${a})`:`rgba(255,240,220,${a})`);c.fillRect(s.x*W,s.y*H,s.r*f*1.4,s.r*f*1.4)}
+  nextShoot-=dt;if(nextShoot<0&&!shoot){shoot={x:rs()*W*.7+W*.1,y:rs()*H*.35,l:0};nextShoot=3+rs()*5}
+  if(shoot){shoot.l+=dt*1.7;const Lg=shoot.l,x=shoot.x+Lg*W*.35,y=shoot.y+Lg*H*.2;const gg=c.createLinearGradient(x,y,x-W*.09,y-H*.05);const sc=light?'168,116,31':'255,240,210';gg.addColorStop(0,`rgba(${sc},${1-Lg})`);gg.addColorStop(1,`rgba(${sc},0)`);c.strokeStyle=gg;c.lineWidth=1.8*f;c.beginPath();c.moveTo(x,y);c.lineTo(x-W*.09,y-H*.05);c.stroke();if(Lg>1)shoot=null}
+  const cx=W/2,cy=H/2,rp=Math.tan(Math.asin(Math.min(.999,1/St.D)))/Math.tan(St.fov/2)*H/2;
+  rg=c.createRadialGradient(cx,cy,rp*.9,cx,cy,rp*2.2);rg.addColorStop(0,light?'rgba(220,150,90,.3)':'rgba(255,170,110,.24)');rg.addColorStop(.5,light?'rgba(220,120,140,.12)':'rgba(220,80,130,.1)');rg.addColorStop(1,'rgba(0,0,0,0)');c.fillStyle=rg;c.fillRect(0,0,W,H);
+  ringPass(c,cx,cy,rp,false,f);
+}
+function ringPass(c,cx,cy,rp,front,f){
+  const light=theme==='light';
+  c.globalCompositeOperation=light?'source-over':'lighter';
+  for(const r of RINGS){const R=rp*r.k,ct=Math.cos(r.tilt),st=Math.sin(r.tilt);
+    for(let j=0;j<r.n;j++){const th=j/r.n*TAU+St.t*r.sp;const sn=Math.sin(th);if((sn>0)!==front)continue;
+      const x0=Math.cos(th)*R,y0=sn*R*r.ry;const x=cx+x0*ct-y0*st,y=cy+x0*st+y0*ct;
+      const tw=.5+.5*Math.sin(St.t*2+j*1.7);const a=(.3+.7*tw)*(front?1:.6);const sz=(.7+tw*1.1)*f;
+      if(light){c.fillStyle=`rgba(${j%3?'200,140,50':'200,90,120'},${.14*a})`;c.beginPath();c.arc(x,y,sz*2.6,0,TAU);c.fill();c.fillStyle=`rgba(${j%3?'150,95,25':'150,40,80'},${a})`;c.beginPath();c.arc(x,y,sz,0,TAU);c.fill()}
+      else{c.fillStyle=`rgba(${j%3?'255,220,160':'255,160,190'},${.16*a})`;c.beginPath();c.arc(x,y,sz*2.6,0,TAU);c.fill();c.fillStyle=`rgba(255,248,230,${a})`;c.beginPath();c.arc(x,y,sz,0,TAU);c.fill()}}}
+  c.globalCompositeOperation='source-over';
+}
+function drawFx(){
+  const W=fxC.width,H=fxC.height;fxCtx.clearRect(0,0,W,H);
+  const cx=W/2,cy=H/2,rp=Math.tan(Math.asin(Math.min(.999,1/St.D)))/Math.tan(St.fov/2)*H/2;
+  ringPass(fxCtx,cx,cy,rp,true,St.fd);
+}
+
+/* ================= audio ================= */
+const Aud={ctx:null,m:null,send:null,pf:null,oscs:[],ok:false,on:true,ci:0,timers:[],white:null,noise:null,
+ CH:[[73.4,110,146.8,185,220],[61.7,92.5,123.5,185,246.9],[98,146.8,196,246.9,293.7],[55,110,138.6,220,277.2]],
+ SC:[1174.7,1318.5,1480,1760,1975.5,2349.3],
+ init(){
+  if(this.ctx){if(this.ctx.state==='suspended')this.ctx.resume();return}
+  const AC=window.AudioContext||window.webkitAudioContext;if(!AC)return;
+  const c=this.ctx=new AC();this.ok=true;
+  const comp=c.createDynamicsCompressor();comp.threshold.value=-20;comp.ratio.value=4;comp.connect(c.destination);
+  const m=this.m=c.createGain();m.gain.value=0;m.connect(comp);
+  const dl=c.createDelay(1.5);dl.delayTime.value=.46;const fb=c.createGain();fb.gain.value=.38;const lp=c.createBiquadFilter();lp.type='lowpass';lp.frequency.value=2400;
+  dl.connect(lp);lp.connect(fb);fb.connect(dl);lp.connect(m);const send=this.send=c.createGain();send.gain.value=.55;send.connect(dl);
+  const pf=this.pf=c.createBiquadFilter();pf.type='lowpass';pf.frequency.value=700;pf.Q.value=.5;
+  const pg=c.createGain();pg.gain.value=.14;pf.connect(pg);pg.connect(m);const ps=c.createGain();ps.gain.value=.25;pg.connect(ps);ps.connect(send);
+  this.CH[0].forEach((f,i)=>{const o=c.createOscillator();o.type=i%2?'triangle':'sine';o.frequency.value=f;o.detune.value=(i-2)*5;const g=c.createGain();g.gain.value=.24-i*.025;o.connect(g);g.connect(pf);o.start();this.oscs.push(o)});
+  const lfo=c.createOscillator();lfo.frequency.value=.06;const lg=c.createGain();lg.gain.value=260;lfo.connect(lg);lg.connect(pf.frequency);lfo.start();
+  const wb=c.createBuffer(1,c.sampleRate*2,c.sampleRate),wd=wb.getChannelData(0);for(let i=0;i<wd.length;i++)wd[i]=Math.random()*2-1;this.white=wb;
+  m.gain.setTargetAtTime(this.on?.62:0,c.currentTime,1.4);
+  this.loopChord();this.loopChime();
+ },
+ loopChord(){this.timers.push(setTimeout(()=>{if(!this.ctx)return;this.ci=(this.ci+1)%this.CH.length;const ch=this.CH[this.ci];this.oscs.forEach((o,i)=>o.frequency.setTargetAtTime(ch[i],this.ctx.currentTime,2.6));this.loopChord()},11000))},
+ loopChime(){this.timers.push(setTimeout(()=>{if(this.ctx&&this.ctx.state==='running'&&St.mode!=='load')this.chime(this.SC[Math.floor(Math.random()*5)],.07+Math.random()*.05);this.loopChime()},1800+Math.random()*2800))},
+ chime(f,v=.12,when=0,dur=2.8){
+  if(!this.ok||this.ctx.state!=='running')return;const c=this.ctx,t=c.currentTime+when;
+  const o=c.createOscillator(),o2=c.createOscillator(),g=c.createGain(),g2=c.createGain();o.type='sine';o2.type='sine';o.frequency.value=f;o2.frequency.value=f*2.01;g2.gain.value=.22;
+  o.connect(g);o2.connect(g2);g2.connect(g);g.gain.setValueAtTime(.0001,t);g.gain.exponentialRampToValueAtTime(v,t+.012);g.gain.exponentialRampToValueAtTime(.0001,t+dur);
+  let out=g;if(c.createStereoPanner){const p=c.createStereoPanner();p.pan.value=Math.random()*1.2-.6;g.connect(p);out=p}
+  out.connect(this.m);out.connect(this.send);o.start(t);o2.start(t);o.stop(t+dur+.1);o2.stop(t+dur+.1);
+ },
+ horn(f,when,dur,v){
+  const c=this.ctx,t=c.currentTime+when;const o=c.createOscillator(),o2=c.createOscillator(),fl=c.createBiquadFilter(),g=c.createGain();
+  o.type='sawtooth';o2.type='sawtooth';o.frequency.value=f;o2.frequency.value=f*1.004;fl.type='lowpass';fl.frequency.setValueAtTime(500,t);fl.frequency.linearRampToValueAtTime(2200,t+dur*.5);fl.Q.value=.8;
+  g.gain.setValueAtTime(.0001,t);g.gain.exponentialRampToValueAtTime(v,t+.12);g.gain.setValueAtTime(v,t+dur*.6);g.gain.exponentialRampToValueAtTime(.0001,t+dur);
+  o.connect(fl);o2.connect(fl);fl.connect(g);g.connect(this.m);g.connect(this.send);o.start(t);o2.start(t);o.stop(t+dur+.1);o2.stop(t+dur+.1);
+ },
+ whoosh(){
+  if(!this.ok)return;const c=this.ctx,t=c.currentTime;const s=c.createBufferSource();s.buffer=this.white;s.loop=true;
+  const bp=c.createBiquadFilter();bp.type='bandpass';bp.Q.value=1.3;bp.frequency.setValueAtTime(180,t);bp.frequency.exponentialRampToValueAtTime(3400,t+2.3);
+  const g=c.createGain();g.gain.setValueAtTime(.0001,t);g.gain.exponentialRampToValueAtTime(.3,t+1.5);g.gain.exponentialRampToValueAtTime(.0001,t+3.2);
+  s.connect(bp);bp.connect(g);g.connect(this.m);g.connect(this.send);s.start(t);s.stop(t+3.3);
+  // royal fanfare: D – A – D – F# – A
+  [[146.8,1.5,.9],[220,1.9,.9],[293.7,2.3,1.0],[370,2.7,1.3],[440,3.1,1.8]].forEach(([f,w,d])=>this.horn(f,w-.8,d,.05));
+  [587.3,880,1174.7,1480,1760].forEach((f,i)=>this.chime(f,.11,2.1+i*.16,4));
+ },
+ tap(i){this.chime(this.SC[i%this.SC.length],.16,0,2.4)},
+ motion(v){if(!this.ok)return;this.pf.frequency.setTargetAtTime(700+clamp(v,0,1)*1500,this.ctx.currentTime,.25)},
+ toggle(){this.on=!this.on;if(this.ok)this.m.gain.setTargetAtTime(this.on?.62:0,this.ctx.currentTime,.25);return this.on},
+ pause(){if(this.ctx)this.ctx.suspend()},resume(){if(this.ctx&&this.on)this.ctx.resume()}
+};
+
+/* ================= interaction ================= */
+const ptrs=new Map();let pinch0=null,tapInfo=null,lastMove=0;
+function rayHit(px,py){
+  const th=Math.tan(St.fov/2);const x=(px/St.W*2-1)*th*St.asp,y=(1-py/St.H*2)*th;
+  const V=viewMat(St.yaw,St.pitch);
+  const d=[V.c0[0]*x+V.c1[0]*y-V.c2[0],V.c0[1]*x+V.c1[1]*y-V.c2[1],V.c0[2]*x+V.c1[2]*y-V.c2[2]];
+  const Ln=Math.hypot(...d);const lam=Math.atan2(d[0],-d[2]);const ph=Math.acos(clamp(d[1]/Ln,-1,1));
+  const X=((lam/TAU)%1+1)%1*4096,Y=ph/Math.PI*2048;
+  for(const z of ZONES)if(X>=z.x&&X<=z.x+z.w&&Y>=z.y&&Y<=z.y+z.h)return z;
+  return null;
+}
+stage.addEventListener('pointerdown',e=>{
+  stage.setPointerCapture(e.pointerId);ptrs.set(e.pointerId,{x:e.clientX,y:e.clientY});
+  if(ptrs.size===1){tapInfo={x:e.clientX,y:e.clientY,t:performance.now(),moved:0};St.vY=St.vP=0;St.go=null;stage.classList.add('drag')}
+  else if(ptrs.size===2){const [a,b]=[...ptrs.values()];pinch0={d:Math.hypot(a.x-b.x,a.y-b.y),f:St.fovT};tapInfo=null}
+  St.idle=0;
+});
+stage.addEventListener('pointermove',e=>{
+  const p=ptrs.get(e.pointerId);
+  if(!p){if(St.mode==='inside'&&e.pointerType==='mouse'){const z=rayHit(e.clientX,e.clientY);stage.style.cursor=z?'pointer':''}return}
+  const dx=e.clientX-p.x,dy=e.clientY-p.y;p.x=e.clientX;p.y=e.clientY;St.idle=0;
+  if(ptrs.size===2&&pinch0&&St.mode==='inside'){const [a,b]=[...ptrs.values()];const d=Math.hypot(a.x-b.x,a.y-b.y);St.fovT=clamp(pinch0.f*pinch0.d/Math.max(d,1),34*D2R,100*D2R);return}
+  if(St.mode==='dive')return;
+  if(tapInfo)tapInfo.moved+=Math.abs(dx)+Math.abs(dy);
+  const k=St.mode==='inside'?St.fov/St.H:.0065;const now=performance.now(),dt=Math.max(.008,(now-lastMove)/1000);lastMove=now;
+  St.yaw-=dx*k;St.pitch=clamp(St.pitch+dy*k,-1.4,1.4);
+  St.vY=lerp(St.vY,-dx*k/dt,.4);St.vP=lerp(St.vP,dy*k/dt,.4);
+});
+const up=e=>{
+  const had=ptrs.delete(e.pointerId);if(!had)return;
+  if(ptrs.size<2)pinch0=null;
+  if(ptrs.size===0){stage.classList.remove('drag');
+    if(tapInfo&&tapInfo.moved<10&&performance.now()-tapInfo.t<700&&St.mode==='inside')tap(tapInfo.x,tapInfo.y);
+    if(performance.now()-lastMove>90){St.vY=St.vP=0}
+    tapInfo=null}
+};
+stage.addEventListener('pointerup',up);stage.addEventListener('pointercancel',up);
+stage.addEventListener('wheel',e=>{e.preventDefault();if(St.mode==='inside')St.fovT=clamp(St.fovT+e.deltaY*.0006,34*D2R,100*D2R);else if(St.mode==='intro')St.D0=clamp(St.D0+e.deltaY*.004,2.2,9)},{passive:false});
+function ripple(x,y){const r=document.createElement('span');r.className='ripple';r.style.left=x+'px';r.style.top=y+'px';document.body.appendChild(r);setTimeout(()=>r.remove(),850)}
+function tap(x,y){
+  const z=rayHit(x,y);ripple(x,y);
+  if(!z){Aud.chime(Aud.SC[Math.floor(Math.random()*5)],.08);return}
+  if(z.type==='photo'){Aud.tap(z.i);openLB(z.i)}
+  else if(z.type==='act'){Aud.tap(2);if(z.a==='share')openShare();else copyLink()}
+  else if(z.type==='card'){Aud.tap(1);openRD(z.r)}
+}
+addEventListener('keydown',e=>{
+  if(rdOpen){if(e.key==='Escape')closeRD();if(e.key==='ArrowRight')stepRD(1);if(e.key==='ArrowLeft')stepRD(-1);return}
+  if(!$('#lb').classList.contains('off')){if(e.key==='Escape')closeLB();if(e.key==='ArrowRight')stepLB(1);if(e.key==='ArrowLeft')stepLB(-1);return}
+  if(!$('#share').classList.contains('off')){if(e.key==='Escape')$('#share').classList.add('off');return}
+  if(St.mode==='intro'&&(e.key==='Enter'||e.key===' ')){e.preventDefault();enter();return}
+  if(St.mode!=='inside')return;St.idle=0;St.go=null;
+  if(e.key==='ArrowLeft')St.vY=-.9;if(e.key==='ArrowRight')St.vY=.9;if(e.key==='ArrowUp')St.vP=.7;if(e.key==='ArrowDown')St.vP=-.7;
+  if(e.key==='+'||e.key==='=')St.fovT=clamp(St.fovT-.08,34*D2R,100*D2R);if(e.key==='-')St.fovT=clamp(St.fovT+.08,34*D2R,100*D2R);
+});
+
+/* ================= flow control ================= */
+function enter(){
+  if(St.mode!=='intro')return;
+  Aud.init();Aud.whoosh();
+  St.mode='dive';St.dive=0;St.diveYaw0=St.yaw;
+  $('#intro').classList.add('fade');setTimeout(()=>$('#intro').classList.add('off'),1000);
+  St.vY=St.vP=0;
+}
+function gotoSection(key){
+  if(St.mode!=='inside')return;const ty=toYaw(SECT[key]);
+  St.go={t:0,dur:1.4,y0:St.yaw,y1:St.yaw+angDiff(St.yaw,ty),p0:St.pitch,p1:HERO_PITCH+.02,f0:St.fovT,f1:baseFov()};St.vY=St.vP=0;
+}
+function panelAt(yaw){const X=((yaw/TAU)%1+1)%1*4096;let best=0,bd=1e9;ITEMS.forEach(([k],i)=>{const d=Math.abs(X-cxOf(k));if(d<bd){bd=d;best=i}});return best}
+function sectionAt(yaw){const X=((yaw/TAU)%1+1)%1*4096;let best='home',bd=1e9;for(const k in SECT){let d=Math.abs(X-SECT[k]);d=Math.min(d,4096-d);if(d<bd){bd=d;best=k}}return best}
+
+let last=0,chipT=0,perfN=0,perfS=0,perfDone=false;
+function frame(ts){
+  requestAnimationFrame(frame);
+  if(document.hidden||!gl||St.mode==='load'){last=ts;return}
+  if(lbOpen||rdOpen){last=ts;return}
+  const dt=Math.min(.05,(ts-last)/1000||.016);last=ts;St.t+=dt;
+  if(St.mode==='intro'){
+    if(!ptrs.size){St.yaw+=dt*(reduce?.03:.16);St.pitch=lerp(St.pitch,.14+.08*Math.sin(St.t*.35),.02)}
+    St.yaw+=St.vY*dt;St.pitch=clamp(St.pitch+St.vP*dt,-1.2,1.2);const dmp=Math.exp(-dt*3);St.vY*=dmp;St.vP*=dmp;
+    St.D=lerp(St.D,St.D0,.08);St.fov=introFov;
+  }else if(St.mode==='dive'){
+    St.dive+=dt/(reduce?1.3:3.1);const t=clamp(St.dive,0,1),e=easeIO(t);
+    St.D=St.D0*(1-e);St.fov=lerp(introFov,baseFov(),e);
+    const tgt=St.diveYaw0+angDiff(St.diveYaw0,HERO_YAW)+(reduce?0:TAU);St.yaw=lerp(St.diveYaw0,tgt,e);St.pitch=lerp(St.pitch,HERO_PITCH+.02,.04+.1*e);
+    $('#flash').style.opacity=(.8*Math.exp(-Math.pow((St.D-1)/.35,2))).toFixed(3);
+    const so=smooth(.9,2.2,St.D);skyC.style.opacity=so;fxC.style.opacity=so;
+    if(t>=1){St.mode='inside';St.D=0;St.fov=baseFov();St.fovT=baseFov();skyC.classList.add('off');fxC.classList.add('off');$('#flash').style.opacity=0;$('#hud').classList.add('on');St.idle=0;setTimeout(()=>$('#tip').classList.add('gone'),9000)}
+  }else{
+    if(St.go){const g=St.go;g.t+=dt/g.dur;const e=easeIO(clamp(g.t,0,1));St.yaw=lerp(g.y0,g.y1,e);St.pitch=lerp(g.p0,g.p1,e);St.fovT=lerp(g.f0,g.f1,e);if(g.t>=1)St.go=null}
+    else{
+      if(!ptrs.size){St.yaw+=St.vY*dt;St.pitch=clamp(St.pitch+St.vP*dt,-1.35,1.35);const dmp=Math.exp(-dt*3.4);St.vY*=dmp;St.vP*=dmp;St.idle+=dt;
+        if(St.idle>3.5&&!reduce){const a=smooth(3.5,6,St.idle);St.yaw+=dt*.05*a;St.pitch=lerp(St.pitch,.12,.006)}}
+    }
+    St.fov=lerp(St.fov,St.fovT,.12);
+    Aud.motion(Math.abs(St.vY)*.9+(ptrs.size?.2:0));
+    St.cool-=dt;const pa=panelAt(St.yaw);if(pa!==St.lastPanel){if(St.lastPanel>=0&&St.cool<=0){Aud.chime(Aud.SC[pa%Aud.SC.length],.07,0,2.2);St.cool=.7}St.lastPanel=pa}
+    chipT-=dt;if(chipT<0){chipT=.25;const s=sectionAt(St.yaw);document.querySelectorAll('.chip').forEach(c=>c.classList.toggle('act',c.dataset.s===s))}
+  }
+  draw();
+  if(St.mode==='intro'||(St.mode==="dive"&&St.D>1.05)){drawSky(dt);drawFx()}
+  if(!perfDone&&St.mode==='inside'){perfS+=dt;perfN++;if(perfN===120){const avg=perfS/perfN;if(avg>.026&&St.dpr>1){St.dpr=1;glC.width=Math.round(St.W);glC.height=Math.round(St.H)}perfDone=true}}
+}
+
+/* ================= lightbox ================= */
+let lbOpen=false,lbI=0;
+const lbEl=$('#lb'),lbImg=$('#lbI');
+function showLB(){const P=PHOTOS[lbI];lbImg.style.opacity=0;lbImg.onload=()=>{lbImg.style.opacity=1};lbImg.src=P.f;lbImg.alt=TX[lang].caps[lbI];$('#lbC').textContent=TX[lang].caps[lbI];$('#lbK').textContent=(lbI+1)+' / '+PHOTOS.length;if(lbImg.complete)lbImg.style.opacity=1;
+  [1,-1].forEach(d=>{const im=new Image();im.src=PHOTOS[(lbI+d+PHOTOS.length)%PHOTOS.length].f})}
+function openLB(i){lbI=i;lbOpen=true;lbEl.classList.remove('off');showLB()}
+function closeLB(){lbOpen=false;lbEl.classList.add('off')}
+function stepLB(d){lbI=(lbI+d+PHOTOS.length)%PHOTOS.length;showLB()}
+$('#lbX').onclick=closeLB;$('#lbP').onclick=()=>stepLB(-1);$('#lbN').onclick=()=>stepLB(1);
+lbEl.addEventListener('click',e=>{if(e.target===lbEl)closeLB()});
+{let sx=null;lbEl.addEventListener('pointerdown',e=>{sx=e.clientX});lbEl.addEventListener('pointerup',e=>{if(sx==null)return;const d=e.clientX-sx;sx=null;if(Math.abs(d)>55)stepLB(d<0?1:-1)})}
+
+/* ================= reader ================= */
+let rdOpen=false,rdI=0;
+const rdEl=$('#rd');
+function showRD(){const R=TX[lang].rd,S=R[rdI];$('#rdK').textContent=S.k;$('#rdH').textContent=S.h;
+  $('#rdB').innerHTML=S.b.map(([t,x])=>t==='q'?`<blockquote>${x}</blockquote>`:`<p${t==='s'?' class="src"':''}>${x}</p>`).join('');
+  $('#rdB').scrollTop=0;$('#rdC').textContent=(rdI+1)+' / '+R.length}
+function openRD(i){rdI=i;rdOpen=true;rdEl.classList.remove('off');showRD()}
+function closeRD(){rdOpen=false;rdEl.classList.add('off')}
+function stepRD(d){const n=TX[lang].rd.length;rdI=(rdI+d+n)%n;showRD()}
+$('#rdX').onclick=closeRD;$('#rdP').onclick=()=>stepRD(-1);$('#rdN').onclick=()=>stepRD(1);
+rdEl.addEventListener('click',e=>{if(e.target===rdEl)closeRD()});
+
+/* ================= share ================= */
+function pageUrl(){return location.origin+location.pathname+(lang!=='bg'?'?lang='+lang:'')}
+function toast(t){const e=$('#toast');e.textContent=t;e.classList.add('on');clearTimeout(toast.t);toast.t=setTimeout(()=>e.classList.remove('on'),2200)}
+async function copyLink(){
+  try{await navigator.clipboard.writeText(pageUrl())}catch(_){const t=document.createElement('textarea');t.value=pageUrl();document.body.appendChild(t);t.select();try{document.execCommand('copy')}catch(__){}t.remove()}
+  toast(TX[lang].copied);
+}
+function buildShare(){
+  const L=TX[lang];
+  $('#shT').textContent=L.shT;$('#shS').textContent=L.shS;$('#shX').textContent=L.close;
+  const u=encodeURIComponent(pageUrl()),tx=encodeURIComponent(L.shMsg);
+  const items=[['Facebook',`https://www.facebook.com/sharer/sharer.php?u=${u}`],['WhatsApp',`https://wa.me/?text=${tx}%20${u}`],['Viber',`viber://forward?text=${tx}%20${u}`],['Telegram',`https://t.me/share/url?url=${u}&text=${tx}`],['X (Twitter)',`https://twitter.com/intent/tweet?url=${u}&text=${tx}`],['LinkedIn',`https://www.linkedin.com/sharing/share-offsite/?url=${u}`],[L.mail,`mailto:?subject=${tx}&body=${u}`]];
+  const grid=$('#sgrid');grid.innerHTML='';
+  items.forEach(([n,h])=>{const b=document.createElement('button');b.type='button';b.textContent=n;b.onclick=()=>{if(h.startsWith('http'))window.open(h,'_blank','noopener,width=640,height=560');else location.href=h};grid.appendChild(b)});
+  const cp=document.createElement('button');cp.type='button';cp.textContent=L.copy;cp.onclick=copyLink;grid.appendChild(cp);
+  if(navigator.share){const nb=document.createElement('button');nb.type='button';nb.textContent=L.more;nb.onclick=()=>navigator.share({title:document.title,text:L.shMsg,url:pageUrl()}).catch(()=>{});grid.appendChild(nb)}
+}
+function openShare(){buildShare();$('#share').classList.remove('off')}
+$('#bShr').onclick=openShare;
+$('#shX').onclick=()=>$('#share').classList.add('off');
+$('#share').addEventListener('click',e=>{if(e.target.id==='share')$('#share').classList.add('off')});
+$('#bGal').onclick=()=>openLB(0);
+$('#bSnd').onclick=()=>{Aud.init();const on=Aud.toggle();$('#bSnd').classList.toggle('muted',!on)};
+$('#enter').onclick=enter;
+document.querySelectorAll('.chip').forEach(c=>c.onclick=()=>{gotoSection(c.dataset.s);Aud.chime(Aud.SC[2],.08)});
+document.addEventListener('visibilitychange',()=>{document.hidden?Aud.pause():Aud.resume()});
+addEventListener('resize',resize);
+
+/* ================= language & theme ================= */
+let imgsRef=null,panoW=4096,rebuildT=null;
+function applyUI(){
+  const L=TX[lang];
+  document.documentElement.lang=lang;document.title=L.title;
+  $('#iEye').textContent=L.eyebrow;$('#iName').textContent=L.name;$('#iSub').textContent=L.sub;$('#enter').textContent=L.cta;$('#iHint').textContent=L.hint;
+  $('#hBrand').textContent=L.name;$('#tip').textContent=L.tip;{const ld=$('#ldT');if(ld)ld.textContent=L.loading}
+  document.querySelectorAll('.chip').forEach(c=>c.textContent=L.chips[c.dataset.s]);
+  $('#bThm').setAttribute('aria-label',L.aria.thm);$('#bSnd').setAttribute('aria-label',L.aria.snd);$('#bGal').setAttribute('aria-label',L.aria.gal);$('#bShr').setAttribute('aria-label',L.aria.shr);
+  $('#lbX').setAttribute('aria-label',L.aria.x);$('#rdX').setAttribute('aria-label',L.aria.x);$('#rdP').setAttribute('aria-label',L.aria.p);$('#rdN').setAttribute('aria-label',L.aria.n);$('#lbP').setAttribute('aria-label',L.aria.p);$('#lbN').setAttribute('aria-label',L.aria.n);
+  document.querySelectorAll('.lang button').forEach(b=>b.classList.toggle('act',b.dataset.l===lang));
+  const sr=$('#sr');
+  sr.innerHTML=`<h1>${L.name} — 360°</h1><h2>${L.sub}</h2><p>${L.aboutP1}</p><p>${L.aboutP2}</p><h2>${L.euTitle}</h2><p>${L.euP1}</p><p>${L.euP2}</p><h2>${L.fwTitle}</h2><ul>${L.fwItems.map(i=>`<li>${i}</li>`).join('')}</ul>`+PHOTOS.map((p,i)=>`<img src="${p.f}" alt="${L.caps[i]}" loading="lazy">`).join('')+`<p>© 2026 ${L.name}</p>`;
+  if(!$('#lb').classList.contains('off'))showLB();
+  if(rdOpen)showRD();
+  if(!$('#share').classList.contains('off'))buildShare();
+}
+function applyTheme(){
+  document.documentElement.dataset.theme=theme;
+  const m=document.querySelector('meta[name=theme-color]');if(m)m.content=theme==='light'?'#fbf1e6':'#0a0310';
+}
+function rebuildPano(){
+  if(!gl||!imgsRef)return;
+  clearTimeout(rebuildT);
+  rebuildT=setTimeout(()=>{const p=buildPanorama(panoW,imgsRef,TX[lang],THEMES[theme]);uploadPano(p);p.cv.width=p.cv.height=1},60);
+}
+function setLang(l){if(!TX[l]||l===lang)return;lang=l;store.set('dfs-lang',l);applyUI();rebuildPano()}
+function setTheme(t){theme=t;store.set('dfs-theme',t);applyTheme();rebuildPano()}
+document.querySelectorAll('.lang button').forEach(b=>b.onclick=()=>{setLang(b.dataset.l);Aud.chime(Aud.SC[1],.07)});
+$('#bThm').onclick=()=>{setTheme(theme==='dark'?'light':'dark');Aud.chime(Aud.SC[3],.07)};
+
+/* ================= boot ================= */
+async function boot(){
+  try{
+    const q=new URLSearchParams(location.search);
+    const sl=q.get('lang')||store.get('dfs-lang'),st=q.get('theme')||store.get('dfs-theme');
+    if(sl&&TX[sl])lang=sl;
+    if(st==='light'||st==='dark')theme=st;
+    applyTheme();applyUI();
+    const ldT=$('#ldT');
+    if(document.fonts&&document.fonts.load){
+      const tests=['600 40px "Cormorant Garamond"','italic 600 40px "Cormorant Garamond"','italic 500 40px "Cormorant Garamond"','400 22px Montserrat','500 22px Montserrat'];
+      await Promise.race([Promise.all(tests.map(t=>document.fonts.load(t,'Диана Филипова ЗА НЕЯ abc ÄÖÜß'))),new Promise(r=>setTimeout(r,3500))]);
+    }
+    let done=0;
+    const imgs=await Promise.all(PHOTOS.map(p=>new Promise(res=>{const im=new Image();im.decoding='async';im.onload=()=>{done++;ldT.textContent=TX[lang].loading.replace('…','')+' '+Math.round(done/PHOTOS.length*100)+'%';res(im)};im.onerror=()=>res(null);im.src=p.f})));
+    await new Promise(r=>setTimeout(r,30));
+    const test=document.createElement('canvas').getContext('webgl')||document.createElement('canvas').getContext('experimental-webgl');
+    if(!test)throw new Error('nogl');
+    const maxT=test.getParameter(test.MAX_TEXTURE_SIZE);
+    panoW=maxT>=4096?4096:2048;imgsRef=imgs;
+    const pano=buildPanorama(panoW,imgs,TX[lang],THEMES[theme]);
+    if(!initGL(pano))throw new Error('nogl');
+    pano.cv.width=pano.cv.height=1;
+    resize();
+    St.mode='intro';
+    $('#intro').classList.remove('off');
+    $('#loader').classList.add('gone');setTimeout(()=>$('#loader').remove(),1000);
+    glC.addEventListener('webglcontextlost',e=>{e.preventDefault()});
+    glC.addEventListener('webglcontextrestored',()=>{const p=buildPanorama(panoW,imgsRef,TX[lang],THEMES[theme]);initGL(p);p.cv.width=p.cv.height=1});
+    requestAnimationFrame(frame);
+  }catch(err){
+    console.warn(err);document.body.classList.add('nogl');const l=$('#loader');if(l)l.remove();
+  }
+}
+window.__sphere={St,hit:rayHit,ZONES,enter,go:gotoSection,setLang,setTheme,set:(y,p,f)=>{St.yaw=y*D2R;St.pitch=p*D2R;if(f){St.fov=St.fovT=f*D2R}}};
+boot();
+})();
+</script>
+</body>
+</html>
